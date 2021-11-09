@@ -1,0 +1,21 @@
+{
+  "name": "kilnw",
+  "version": "1.0.0",
+  "description": "Scraper to get Image Files from the PokeWiki",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "npm start"
+  },
+  "author": "Justin Schweiger",
+  "license": "ISC",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "jsdom": "^18.0.1",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
