@@ -1,5 +1,13 @@
 const getData = (document) => {
-    console.log(document.querySelector('.round,.blink').querySelector('tbody'));
+    const table = document.querySelector('.round');
+    const keys = [
+        'ID',
+        'NAME'
+    ];
+
+    const pokemonList = document.querySelectorAll('.round > tbody:nth-child(2) > tr:nth-child(1)');
+
+    console.log
 }
 
 export default getData;
