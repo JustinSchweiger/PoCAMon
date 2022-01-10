@@ -2,6 +2,10 @@
   "name": "Server",
   "version": "1.0.0",
   "dependencies": {
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "sass": "^1.47.0"
+  },
+  "scripts": {
+    "server": "node server.js"
   }
 }
