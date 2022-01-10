@@ -1,8 +1,19 @@
 import fetch from "node-fetch";
 import {JSDOM} from "jsdom";
+import cliProgress from 'cli-progress';
+import colors from 'ansi-colors';
 
 const getPokemonData = async (pokemonList) => {
     const newPokemonList = [];
+
+    const bar = new cliProgress.SingleBar({
+        format: 'Get Data |' + colors.cyan('{bar}') + '| {percentage}% | {value}/{total} Pokemon | Duration: {duration_formatted} | ETA: {eta_formatted}',
+        barCompleteChar: '\u2588',
+        barIncompleteChar: '\u2591',
+        hideCursor: true
+    });
+    bar.start(pokemonList.length, 0);
+
     for (const pokemon of pokemonList) {
         const response = await fetch(pokemon.link);
         const doc = new JSDOM(await response.text());
@@ -12,11 +23,9 @@ const getPokemonData = async (pokemonList) => {
             .parentElement
             .parentElement
             .childNodes[3]
+            .firstChild
             .textContent
-            .replace(
-                '\\s(.*)',
-                ''
-            );
+            .trim();
 
         const color = document.querySelector('.right > tbody a[title="Farbe"]')
             .parentElement
@@ -58,14 +67,19 @@ const getPokemonData = async (pokemonList) => {
             '.right > tbody a[title="Typ"], a[title="Typen"]'
         ).parentElement.parentElement;
 
-        const types = typeTable.querySelectorAll(
-            '.right > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(2) > span.ic_icon'
+        const types = typeTable.querySelector(
+            '.right > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(2)'
         );
 
-        const typesArray = [];
-        types.forEach(type => {
-            typesArray.push(type.querySelector('a').getAttribute('title'));
-        });
+        let type1 = null;
+        let type2 = null;
+
+        if (types.childNodes.length > 3) {
+            type1 = types.childNodes[0].firstChild.title;
+            type2 = types.childNodes[2].firstChild ? types.childNodes[2].firstChild.title : null;
+        } else {
+            type1 = types.childNodes[0].firstChild.title;
+        }
 
         const pokedexEntry = document.querySelector(
             'div.pokedex-eintraege > div:nth-child(2) > div:nth-child(3)'
@@ -76,13 +90,18 @@ const getPokemonData = async (pokemonList) => {
             color,
             cry,
             image,
-            types: typesArray,
+            types: [
+                type1,
+                type2
+            ].filter(Boolean),
             pokedexEntry
         };
 
         newPokemonList.push({...pokemon, ...data});
+        bar.increment();
     }
 
+    bar.stop();
     return newPokemonList;
 }
 

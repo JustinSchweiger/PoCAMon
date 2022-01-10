@@ -2,20 +2,26 @@
   "name": "kilnw",
   "version": "1.0.0",
   "description": "Scraper to get Image Files from the PokeWiki",
-  "main": "index.js",
+  "main": "scrape.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scrape": "node index.js"
+    "scrape": "node scrape.js",
+    "download": "node download.js",
+    "all": "node scrape.js && node download.js"
   },
   "author": "Justin Schweiger",
   "license": "ISC",
   "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "cli-progress": "^3.10.0",
     "fetch": "^1.1.0",
+    "js-file-downloader": "^1.1.24",
     "jsdom": "^18.0.1",
     "node-fetch": "^3.0.0",
+    "nodejs-file-downloader": "^4.9.2",
     "uniq": "^1.0.1",
-    "unique-objects": "^1.0.5"
+    "unique-objects": "^1.0.5",
+    "write-json-file": "^5.0.0"
   },
   "devDependencies": {
     "dotenv": "^10.0.0"
