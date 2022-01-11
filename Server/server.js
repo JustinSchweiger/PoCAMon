@@ -1,16 +1,10 @@
 require('dotenv').config()
-const http = require("http");
-const fs = require("fs");   // for reading files
-const host = process.env.HOST;
-const port = process.env.PORT
+const port = process.env.PORT;
+const express = require('express');
+const app = express();
 
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader("Content-Type", "text/html");
-    res.writeHead(200);
-    res.end(fs.readFileSync(__dirname + "/pages/index.html"));
-});
+app.use(express.static('pages'));
 
-server.listen(port, host, () => {
-    console.log(`Server running at http://${host}:${process.env.PORT}/`);
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`)
 });
