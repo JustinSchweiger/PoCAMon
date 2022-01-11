@@ -9,7 +9,7 @@
 <body>
 
 <header>
-	<img src="images/logo.png" alt="logo" id="logo">
+	<img src="../static/img/logo.png" alt="logo" id="logo">
 </header>
 <div id="pokedex-container">
 	<div id="pokedex-wrapper">
@@ -63,7 +63,7 @@
 							<div id="screen-components">
 								<div class="inwards-shadow" id="cam-feed-screen-shadow">
 									<div id="cam-feed-screen">
-										<img id="camera-feed" src="./images/testImage.jpg" alt="">
+										<img id="camera-feed" src="" alt="">
 									</div>
 								</div>
 								<div class="inwards-shadow" id="cam-feed-text-shadow">
@@ -79,11 +79,11 @@
 					<div id="hint-button-container">
 						<div class="outwards-shadow" id="hint-button-shadow">
 							<button id="hint-button">
-								<img src="images/hint.png" id="hint-image">
+								<img src="../static/img/hint.png" id="hint-image">
 							</button>
 						</div>
 						<div id="hint-image-container">
-							<img src="images/HintArrow.png" id="hint-button-image">
+							<img src="../static/img/HintArrow.png" id="hint-button-image">
 						</div>
 					</div>
 
@@ -101,8 +101,8 @@
 				<div id="guess-validation-screen-part">
 					<div class="inwards-shadow" id="guess-validation-screen-shadow">
 						<div id="guess-validation-screen">
-							<img src="images/right.png" class="lcdValidation" id="lcdRight">
-							<img src="images/wrong.png" class="lcdValidation" id="lcdFalse">
+							<img src="../static/img/right.png" class="lcdValidation" id="lcdRight">
+							<img src="../static/img/wrong.png" class="lcdValidation" id="lcdFalse">
 						</div>
 					</div>
 					<div class="outwards-shadow" id="control-pad-shadow">
@@ -167,7 +167,7 @@
 					<div id="sound-silhouette-part">
 						<div id="sound-part">
 							<div id="speaker-image-container">
-								<img src="images/speaker.png" id="speaker">
+								<img src="../static/img/speaker.png" id="speaker">
 							</div>
 							<div class="inwards-shadow" id="sound-screen-shadow">
 								<div id="sound-screen">
@@ -176,7 +176,7 @@
 							</div>
 							<div class="outwards-shadow" id="sound-button-shadow">
 								<button id="sound-button">
-									<img src="images/sound.png" id="sound-image">
+									<img src="../static/img/sound.png" id="sound-image">
 								</button>
 							</div>
 
@@ -192,5 +192,12 @@
 		</div>
 	</div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+<script>
+	const socket = io();
+	socket.on('my_test_emit', (data) => {
+		console.log(data);
+	})
+</script>
 </body>
 </html>

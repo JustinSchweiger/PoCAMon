@@ -1,23 +1,25 @@
-# This is the code
-# Find me on discord ZDev1#4511
-# We shouldn't install flask in the terminal, it is already imported
 from flask import Flask, render_template
+from flask_socketio import SocketIO, emit
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'secret!'
+socketio = SocketIO(app)
 
 
-# route
 @app.route('/')
-# route function
-def home():
-    # send 'hey!'
+def index():
     return render_template('index.html')
 
 
-# listen
-if __name__ == "__main__":
-    app.run(port=3000)
-    # if you need to make it live debuging add 'debug=True'
-    # app.run(port=3000, debug=True)
+@socketio.on('my event')
+def my_test_emit(message):
+    emit('my test', {'data': 'got it!'})
 
-# Hope you enjoyed ;)
+
+@socketio.on('connect')
+def test_connect():
+    emit('my response', {'data': 'Connected'})
+
+
+if __name__ == "__main__":
+    socketio.run(app)

@@ -2,3 +2,4 @@ Scraper/.idea/
 Scraper/node_modules/
 Server/node_modules/
 .idea/
+Server/__pycache__/app.cpython-39.pyc
