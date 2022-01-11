@@ -1,0 +1,37 @@
+@import "pokedex-left1";
+@import "pokedex-hinge";
+@import "pokedex-right";
+
+$primary-color: #CE1131;
+$primary-color-brighter: #d7203f;
+$shadow-color: #8F1426;
+$border-color: #661521;
+
+body{
+  background-image: url("../images/Pokemon wallpaper.jpg");
+  background-size: 100% 100%;
+}
+
+#pokedex-container{
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  margin-top: 0vh;
+}
+
+#pokedex-wrapper{
+  height: 80%;
+  width: 60%;
+  display: flex;
+  align-items: flex-end;
+}
+
+#logo{
+  height: 20vh;
+}
+
+#wallpaper{
+  height: 100%;
+  width: 100%;
+}
+
