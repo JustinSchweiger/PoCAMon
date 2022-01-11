@@ -11,10 +11,7 @@ header {
   width: 47.5%;
   height: 100%;
   justify-content: right;
-  border-top-left-radius: 5vh;
-  border-bottom-left-radius: 5vh;
-  border-top-right-radius: 1vh;
-  border-bottom-right-radius: 1vh;
+  border-radius: 5vh 1vh 1vh 5vh;
   border-style: solid;
   border-color: #661521;
 }
@@ -190,6 +187,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 #cam-feed-text-shadow {
@@ -209,6 +207,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Pokemon Solid", serif;
+  font-size: 1.3rem;
 }
 
 #hint-button-part {
@@ -223,7 +223,6 @@ header {
   display: flex;
   height: 95%;
   width: 30%;
-  display: flex;
   align-items: center;
   justify-content: flex-end;
 }
@@ -384,11 +383,7 @@ header {
   height: 83%;
   border-color: #661521;
   border-style: solid;
-  border-top-left-radius: 1vh;
-  border-bottom-left-radius: 1vh;
-  border-top-right-radius: 1vh;
-  border-bottom-right-radius: 5vh;
-  display: flex;
+  border-radius: 1vh 1vh 5vh 1vh;
   align-items: center;
 }
 
@@ -563,16 +558,14 @@ header {
 #silhouette-screen-shadow {
   width: 70%;
   height: 95%;
-  border-radius: 1vh;
-  border-bottom-right-radius: 3vh;
+  border-radius: 1vh 1vh 3vh 1vh;
   background: #38653B;
 }
 
 #silhouette-screen {
   width: 98%;
   height: 98%;
-  border-radius: 1vh;
-  border-bottom-right-radius: 3vh;
+  border-radius: 1vh 1vh 3vh 1vh;
   background: #55AB62;
   display: flex;
   justify-content: center;
@@ -605,6 +598,11 @@ body {
 #wallpaper {
   height: 100%;
   width: 100%;
+}
+
+#camera-feed {
+  width: auto;
+  height: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */

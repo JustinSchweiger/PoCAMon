@@ -1,16 +1,10 @@
-@import "../abstracts/variables";
-
-
 #pokedex-left {
   display: flex;
   background: $shadow-color;
   width: 47.5%;
   height: 100%;
   justify-content: right;
-  border-top-left-radius: 5vh;
-  border-bottom-left-radius: 5vh;
-  border-top-right-radius: 1vh;
-  border-bottom-right-radius: 1vh;
+  border-radius: 5vh 1vh 1vh 5vh;
   border-style: solid;
   border-color: $border-color;
 }
@@ -196,6 +190,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 #cam-feed-text-shadow {
@@ -215,6 +210,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Pokemon Solid', serif;
+  font-size: 1.3rem;
 }
 
 #hint-button-part {
@@ -225,16 +222,15 @@
   align-items: center;
 }
 
-#hint-button-container{
+#hint-button-container {
   display: flex;
   height: 95%;
   width: 30%;
-  display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-#hint-button-image{
+#hint-button-image {
   height: 6vh;
   opacity: 70%;
   margin-top: 50%;
@@ -257,13 +253,13 @@
   align-items: center;
 }
 
-#hint-image{
+#hint-image {
   width: 70%;
   height: 90%;
   opacity: 50%;
 }
 
-.hint-led{
+.hint-led {
   width: 20%;
   height: 20%;
   background: #313131;
@@ -273,10 +269,10 @@
   align-items: center;
 }
 
-#hint-led-1{
+#hint-led-1 {
   background: #23bd00;
 
-  div{
+  div {
     width: 90%;
     height: 50%;
     background: #cdffb0;
@@ -284,10 +280,10 @@
   }
 }
 
-#hint-led-2{
+#hint-led-2 {
   background: #2d49ff;
 
-  div{
+  div {
     width: 90%;
     height: 50%;
     background: #b0dbff;
@@ -295,7 +291,7 @@
   }
 }
 
-#guess-validation-screen-part{
+#guess-validation-screen-part {
   height: 20%;
   width: 100%;
   display: flex;
@@ -303,7 +299,7 @@
   align-items: center;
 }
 
-#guess-validation-screen-shadow{
+#guess-validation-screen-shadow {
   width: 10vh;
   height: 10vh;
   border-radius: 1vh;
@@ -311,7 +307,7 @@
   margin-left: 10%;
 }
 
-#guess-validation-screen{
+#guess-validation-screen {
   width: 95%;
   height: 95%;
   border-radius: 1vh;
@@ -321,21 +317,21 @@
   justify-content: center;
 }
 
-.lcdValidation{
+.lcdValidation {
   width: 80%;
   height: 80%;
   margin: auto;
 }
 
-#lcdRight{
+#lcdRight {
   display: none;
 }
 
-#lcdFalse{
+#lcdFalse {
 
 }
 
-#control-pad-shadow{
+#control-pad-shadow {
   height: 10vh;
   width: 10vh;
   background: #363636;
@@ -344,7 +340,7 @@
   margin-right: 10%;
 }
 
-#control-pad{
+#control-pad {
   height: 95%;
   width: 95%;
   background: gray;

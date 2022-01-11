@@ -1,6 +1,4 @@
-@import "../abstracts/variables";
-
-#pokedex-hinge{
+#pokedex-hinge {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -9,7 +7,7 @@
   height: 100%;
 }
 
-.hinge-end{
+.hinge-end {
   width: 90%;
   height: 2%;
   background: $primary-color;
@@ -18,11 +16,11 @@
   margin-left: -0.25vh;
 }
 
-#hinge-top{
+#hinge-top {
   margin-top: -28%;
 }
 
-#hinge-middle{
+#hinge-middle {
   width: 90%;
   height: 100%;
   background: $primary-color;
@@ -32,7 +30,7 @@
   margin-left: -0.25vh;
 }
 
-#hinge-bottom{
+#hinge-bottom {
   margin-bottom: -10%;
   background: $shadow-color;
 }
