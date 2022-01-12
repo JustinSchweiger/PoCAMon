@@ -601,11 +601,6 @@ body {
 }
 
 #webcam {
-  height: 100%;
-  width: auto;
-}
-
-#webcam-loading-gif {
   height: auto;
   width: 100%;
 }

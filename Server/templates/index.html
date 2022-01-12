@@ -63,9 +63,7 @@
                             <div id="screen-components">
                                 <div class="inwards-shadow" id="cam-feed-screen-shadow">
                                     <div id="cam-feed-screen">
-                                        <video autoplay id="webcam">
-
-                                        </video>
+                                        <img src="{{ url_for('webcam') }}" id="webcam" alt="webcam feed">
                                     </div>
                                 </div>
                                 <div class="inwards-shadow" id="cam-feed-text-shadow">
@@ -194,7 +192,6 @@
         </div>
     </div>
 </div>
-<canvas id="webcam-picture" style="display: none;"></canvas>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
 <script src="{{ url_for('static',filename='js/webcam.js') }}"></script>
 </body>

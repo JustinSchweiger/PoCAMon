@@ -1,39 +1,66 @@
-import base64
-from io import BytesIO
-
 import cv2
-from flask import Flask, render_template
+from flask import Flask, render_template, Response
 from flask_socketio import SocketIO, emit
 import yolov5
 from PIL import Image
 import numpy as np
+import json
+import random
+
+from torch import Tensor
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app, always_connect=True)
 model = yolov5.load('model.pt')
+camera = cv2.VideoCapture(0)
+pokemonList = json.load(open('data.json'))
+
+
+
+def generate_frames():
+    while True:
+        success, frame = camera.read()
+        if not success:
+            break
+        else:
+            yolo_detection(frame)
+            ret, buffer = cv2.imencode('.jpg', frame)
+            frame = buffer.tobytes()
+
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+
+
+def yolo_detection(image):
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    results = model(image)
+    detected_classes = set()
+
+    for pred in results.pred:
+        for p in np.asarray(Tensor.cpu(pred)):
+            class_id = int(p[-1])
+            class_name = results.names[class_id]
+            detected_classes.add(class_name)
+
+    print(str(sorted(detected_classes)))
+
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
 
-@socketio.on('webcam-feed')
-def webcam_feed(image):
-    im = Image.open(base64.b64decode(image))
-    im.save('image.png', 'PNG')
-    """im_arr = np.frombuffer(im_bytes, dtype=np.uint8)
-    img = cv2.imdecode(im_arr, flags=cv2.IMREAD_COLOR)
-    print(img)
-    results = model(img)
-    detected_classes = set()
-    for pred in results.pred:
-        for p in np.asarray(pred):
-            class_id = int(p[-1])
-            class_name = results.names[class_id]
-            detected_classes.add(class_name)
+@app.route('/webcam')
+def webcam():
+    return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-    emit('result', str(sorted(detected_classes)))"""
+
+@app.route('/pokemon')
+def pokemon():
+    rand = random.randint(0, len(pokemonList))
+    return pokemonList[rand]
+
 
 if __name__ == "__main__":
     socketio.run(app)
