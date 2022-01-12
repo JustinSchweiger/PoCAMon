@@ -600,4 +600,14 @@ body {
   width: 100%;
 }
 
+#webcam {
+  height: 100%;
+  width: auto;
+}
+
+#webcam-loading-gif {
+  height: auto;
+  width: 100%;
+}
+
 /*# sourceMappingURL=index.css.map */
