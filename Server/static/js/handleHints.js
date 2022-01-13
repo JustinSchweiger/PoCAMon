@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async (event) => {
             newHintMessage.style.marginTop = '-75px';
             availableHints++;
         }
-    }, 3000);
+    }, 10000);
 
 
     hintButton.addEventListener('click', () => {
