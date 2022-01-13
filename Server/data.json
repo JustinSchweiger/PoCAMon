@@ -1,0 +1,318 @@
+[
+	{
+		"id": "144",
+		"name": "Arktos",
+		"link": "https://www.pokewiki.de/Arktos",
+		"cardLink": "https://www.pokewiki.de/Arktos_(TCG)",
+		"size": "1,7 m",
+		"color": "Blau",
+		"cry": "https://www.pokewiki.de/images/7/72/Ruf_144.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/8/81/Sugimori_144a.png/228px-Sugimori_144a.png",
+		"types": [
+			"Eis",
+			"Flug"
+		],
+		"pokedexEntry": "Ein legendäres VOGEL-POKéMON, das angeblich in Gletschern verirrten Wanderern den Weg weist."
+	},
+	{
+		"id": "001",
+		"name": "Bisasam",
+		"link": "https://www.pokewiki.de/Bisasam",
+		"cardLink": "https://www.pokewiki.de/Bisasam_(TCG)",
+		"size": "0,7 m",
+		"color": "Grün",
+		"cry": "https://www.pokewiki.de/images/b/ba/Ruf_001.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/9/96/Sugimori_001.png/250px-Sugimori_001.png",
+		"types": [
+			"Pflanze",
+			"Gift"
+		],
+		"pokedexEntry": "Dieses POKéMON trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst."
+	},
+	{
+		"id": "132",
+		"name": "Ditto",
+		"link": "https://www.pokewiki.de/Ditto",
+		"cardLink": "https://www.pokewiki.de/Ditto_(TCG)",
+		"size": "0,3 m",
+		"color": "Violett",
+		"cry": "https://www.pokewiki.de/images/6/66/Ruf_132.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/d/dd/Sugimori_132.png/250px-Sugimori_132.png",
+		"types": [
+			"Normal"
+		],
+		"pokedexEntry": "Dieses POKéMON kann die Gene von Gegnern kopieren und sich sofort in deren Ebenbild verwandeln."
+	},
+	{
+		"id": "125",
+		"name": "Elektek",
+		"link": "https://www.pokewiki.de/Elektek",
+		"cardLink": "https://www.pokewiki.de/Elektek_(TCG)",
+		"size": "1,1 m",
+		"color": "Gelb",
+		"cry": "https://www.pokewiki.de/images/3/38/Ruf_125.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/5/53/Sugimori_125.png/250px-Sugimori_125.png",
+		"types": [
+			"Elektro"
+		],
+		"pokedexEntry": "Dieses POKéMON lebt in der Nähe von Kraftwerken. In Städten kann es Stromausfälle verursachen."
+	},
+	{
+		"id": "133",
+		"name": "Evoli",
+		"link": "https://www.pokewiki.de/Evoli",
+		"cardLink": "https://www.pokewiki.de/Evoli_(TCG)",
+		"size": "0,3 m",
+		"color": "Braun",
+		"cry": "https://www.pokewiki.de/images/2/24/Ruf_133.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/1/13/Sugimori_133g1.png/209px-Sugimori_133g1.png",
+		"types": [
+			"Normal"
+		],
+		"pokedexEntry": "Der Gen-Code von EVOLI ist uneinheitlich. Die Strahlung von Element-Steinen läßt es mutieren."
+	},
+	{
+		"id": "005",
+		"name": "Glutexo",
+		"link": "https://www.pokewiki.de/Glutexo",
+		"cardLink": "https://www.pokewiki.de/Glutexo_(TCG)",
+		"size": "1,1 m",
+		"color": "Rot",
+		"cry": "https://www.pokewiki.de/images/7/72/Ruf_005.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/7/7a/Sugimori_005.png/212px-Sugimori_005.png",
+		"types": [
+			"Feuer"
+		],
+		"pokedexEntry": "Wenn GLUTEXO mit seinem Schwanz schwingt, steigt die Temperatur ins Unermeßliche."
+	},
+	{
+		"id": "129",
+		"name": "Karpador",
+		"link": "https://www.pokewiki.de/Karpador",
+		"cardLink": "https://www.pokewiki.de/Karpador_(TCG)",
+		"size": "0,9 m",
+		"color": "Rot",
+		"cry": "https://www.pokewiki.de/images/b/b4/Ruf_129.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/2/2e/Sugimori_129.png/223px-Sugimori_129.png",
+		"types": [
+			"Wasser"
+		],
+		"pokedexEntry": "Die urzeitlichen Vorfahren dieses POKéMON waren sehr viel stärker als ihre heutigen Nachkommen."
+	},
+	{
+		"id": "074",
+		"name": "Kleinstein",
+		"link": "https://www.pokewiki.de/Kleinstein",
+		"cardLink": "https://www.pokewiki.de/Kleinstein_(TCG)",
+		"size": "0,4 m",
+		"color": "Braun",
+		"cry": "https://www.pokewiki.de/images/5/5f/Ruf_074.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/f/f6/Sugimori_074a.png/250px-Sugimori_074a.png",
+		"types": [
+			"Gestein",
+			"Boden"
+		],
+		"pokedexEntry": "Wanderer stolpern in den Bergen häufig über dieses POKéMON, da es wie ein Stein aussieht."
+	},
+	{
+		"id": "146",
+		"name": "Lavados",
+		"link": "https://www.pokewiki.de/Lavados",
+		"cardLink": "https://www.pokewiki.de/Lavados_(TCG)",
+		"size": "2,0 m",
+		"color": "Gelb",
+		"cry": "https://www.pokewiki.de/images/4/4d/Ruf_146.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/d/df/Sugimori_146a.png/250px-Sugimori_146a.png",
+		"types": [
+			"Feuer",
+			"Flug"
+		],
+		"pokedexEntry": "Dieses POKéMON ist der legendäre Feuervogel. Sein Flügelschlag entfacht ein helles Feuermeer."
+	},
+	{
+		"id": "126",
+		"name": "Magmar",
+		"link": "https://www.pokewiki.de/Magmar",
+		"cardLink": "https://www.pokewiki.de/Magmar_(TCG)",
+		"size": "1,3 m",
+		"color": "Rot",
+		"cry": "https://www.pokewiki.de/images/8/81/Ruf_126.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/f/fc/Sugimori_126.png/250px-Sugimori_126.png",
+		"types": [
+			"Feuer"
+		],
+		"pokedexEntry": "Dieses POKéMON kann sich dank seines orangefarbenen Körpers perfekt im Feuer verstecken."
+	},
+	{
+		"id": "151",
+		"name": "Mew",
+		"link": "https://www.pokewiki.de/Mew",
+		"cardLink": "https://www.pokewiki.de/Mew_(TCG)",
+		"size": "0,4 m",
+		"color": "Rosa",
+		"cry": "https://www.pokewiki.de/images/2/29/Ruf_151.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/0/05/Sugimori_151.png/246px-Sugimori_151.png",
+		"types": [
+			"Psycho"
+		],
+		"pokedexEntry": "Viele Experten bezweifeln die Existenz dieses POKéMON. Nur wenige Personen haben es gesehen."
+	},
+	{
+		"id": "150",
+		"name": "Mewtu",
+		"link": "https://www.pokewiki.de/Mewtu",
+		"cardLink": "https://www.pokewiki.de/Mewtu_(TCG)",
+		"size": "2,0 m",
+		"color": "Violett",
+		"cry": "https://www.pokewiki.de/images/7/74/Ruf_150.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/4/46/Sugimori_150.png/204px-Sugimori_150.png",
+		"types": [
+			"Psycho"
+		],
+		"pokedexEntry": "Dieses POKéMON ist das Resultat eines jahrelangen und skrupellosen Experimentes."
+	},
+	{
+		"id": "122",
+		"name": "Pantimos",
+		"link": "https://www.pokewiki.de/Pantimos",
+		"cardLink": "https://www.pokewiki.de/Pantimos_(TCG)",
+		"size": "1,3 m",
+		"color": "Rosa",
+		"cry": "https://www.pokewiki.de/images/d/d0/Ruf_122.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/1/1a/Sugimori_122a.png/234px-Sugimori_122a.png",
+		"types": [
+			"Psycho",
+			"Fee"
+		],
+		"pokedexEntry": "Stört man dieses POKéMON beim Mienenspiel, so schlägt es mit seinen großen Händen um sich."
+	},
+	{
+		"id": "025",
+		"name": "Pikachu",
+		"link": "https://www.pokewiki.de/Pikachu",
+		"cardLink": "https://www.pokewiki.de/Pikachu_(TCG)",
+		"size": "0,4 m",
+		"color": "Gelb",
+		"cry": "https://www.pokewiki.de/images/b/ba/Ruf_025.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/6/6c/Sugimori_025.png/250px-Sugimori_025.png",
+		"types": [
+			"Elektro"
+		],
+		"pokedexEntry": "Wenn sich mehrere dieser POKéMON versammeln, kann ihre Energie Blitzgewitter erzeugen."
+	},
+	{
+		"id": "127",
+		"name": "Pinsir",
+		"link": "https://www.pokewiki.de/Pinsir",
+		"cardLink": "https://www.pokewiki.de/Pinsir_(TCG)",
+		"size": "1,5 m",
+		"color": "Braun",
+		"cry": "https://www.pokewiki.de/images/0/0f/Ruf_127.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/5/55/Sugimori_127m1.png/250px-Sugimori_127m1.png",
+		"types": [
+			"Käfer"
+		],
+		"pokedexEntry": "Dieses POKéMON vermag mit seinen mächtigen Kneifzangen Gegner zu zermalmen."
+	},
+	{
+		"id": "026",
+		"name": "Raichu",
+		"link": "https://www.pokewiki.de/Raichu",
+		"cardLink": "https://www.pokewiki.de/Raichu_(TCG)",
+		"size": "0,8 m",
+		"color": "Gelb",
+		"cry": "https://www.pokewiki.de/images/2/24/Ruf_026.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/a/ac/Sugimori_026a.png/224px-Sugimori_026a.png",
+		"types": [
+			"Elektro"
+		],
+		"pokedexEntry": "Der lange Schweif dieses POKéMON dient als Erdung zum Schutz vor der körpereigenen Hochspannung."
+	},
+	{
+		"id": "143",
+		"name": "Relaxo",
+		"link": "https://www.pokewiki.de/Relaxo",
+		"cardLink": "https://www.pokewiki.de/Relaxo_(TCG)",
+		"size": "2,1 m",
+		"color": "Schwarz",
+		"cry": "https://www.pokewiki.de/images/a/a0/Ruf_143.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/8/84/Sugimori_143g1.png/250px-Sugimori_143g1.png",
+		"types": [
+			"Normal"
+		],
+		"pokedexEntry": "Ein sehr faules POKéMON, welches nur schläft und frißt. Je größer es wird, desto mehr schläft es."
+	},
+	{
+		"id": "124",
+		"name": "Rossana",
+		"link": "https://www.pokewiki.de/Rossana",
+		"cardLink": "https://www.pokewiki.de/Rossana_(TCG)",
+		"size": "1,4 m",
+		"color": "Rot",
+		"cry": "https://www.pokewiki.de/images/0/09/Ruf_124.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/a/a5/Sugimori_124.png/250px-Sugimori_124.png",
+		"types": [
+			"Eis",
+			"Psycho"
+		],
+		"pokedexEntry": "Der beschwingte Gang dieses POKéMON bezaubert Zuschauer und läßt sie im Takt dazu tanzen."
+	},
+	{
+		"id": "123",
+		"name": "Sichlor",
+		"link": "https://www.pokewiki.de/Sichlor",
+		"cardLink": "https://www.pokewiki.de/Sichlor_(TCG)",
+		"size": "1,5 m",
+		"color": "Grün",
+		"cry": "https://www.pokewiki.de/images/3/3e/Ruf_123.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/e/ef/Sugimori_123.png/222px-Sugimori_123.png",
+		"types": [
+			"Käfer",
+			"Flug"
+		],
+		"pokedexEntry": "Dieses POKéMON ist schnell und wendig wie ein Ninja. Man glaubt, mehrere Gegner zu sehen."
+	},
+	{
+		"id": "128",
+		"name": "Tauros",
+		"link": "https://www.pokewiki.de/Tauros",
+		"cardLink": "https://www.pokewiki.de/Tauros_(TCG)",
+		"size": "1,4 m",
+		"color": "Braun",
+		"cry": "https://www.pokewiki.de/images/6/6c/Ruf_128.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/e/e5/Sugimori_128.png/250px-Sugimori_128.png",
+		"types": [
+			"Normal"
+		],
+		"pokedexEntry": "Sieht TAUROS einen Gegner, so stürmt er wutschnaubend los und benutzt seine Schweife als Peitschen."
+	},
+	{
+		"id": "009",
+		"name": "Turtok",
+		"link": "https://www.pokewiki.de/Turtok",
+		"cardLink": "https://www.pokewiki.de/Turtok_(TCG)",
+		"size": "1,6 m",
+		"color": "Blau",
+		"cry": "https://www.pokewiki.de/images/6/64/Ruf_009.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/9/9a/Sugimori_009.png/230px-Sugimori_009.png",
+		"types": [
+			"Wasser"
+		],
+		"pokedexEntry": "Ein mächtiges und schnelles POKéMON, das auf dem Rücken zwei Hochdruckwasserwerfer trägt."
+	},
+	{
+		"id": "145",
+		"name": "Zapdos",
+		"link": "https://www.pokewiki.de/Zapdos",
+		"cardLink": "https://www.pokewiki.de/Zapdos_(TCG)",
+		"size": "1,6 m",
+		"color": "Gelb",
+		"cry": "https://www.pokewiki.de/images/0/0c/Ruf_145.mp3",
+		"image": "https://www.pokewiki.de/images/thumb/f/fa/Sugimori_145a.png/250px-Sugimori_145a.png",
+		"types": [
+			"Elektro",
+			"Flug"
+		],
+		"pokedexEntry": "Ein legendäres VOGEL-POKéMON, das im Sturzflug aus den Wolken bricht und Blitze schleudert."
+	}
+]
