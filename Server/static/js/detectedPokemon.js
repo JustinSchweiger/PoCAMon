@@ -1,11 +1,12 @@
 const finishSound = new Audio('https://vgmsite.com/soundtracks/pokemon-black-and-white/uxmulmut/116%20Level%20Up%21.mp3');
+let gameFinished = false;
 
 document.addEventListener("DOMContentLoaded", async (event) => {
     const detectedPokemon = document.getElementById('result');
     const socket = io();
 
     socket.on('detected_pokemon', (pokemon) => {
-        if (pokemon.length === 0) {
+        if (pokemon.length === 0 || gameFinished) {
             return;
         }
 
@@ -22,8 +23,6 @@ document.addEventListener("DOMContentLoaded", async (event) => {
         checkGameEnd(pokemon[0])
     });
 });
-
-let gameFinished = false;
 
 function checkGameEnd(pokemon) {
     if (pokemon !== window.pokemon.name || gameFinished) {
