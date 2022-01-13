@@ -6,15 +6,18 @@ from PIL import Image
 import numpy as np
 import json
 import random
+from flask_cors import CORS, cross_origin
 
 from torch import Tensor
 
 app = Flask(__name__)
+cors = CORS(app)
 app.config['SECRET_KEY'] = 'secret!'
+app.config['CORS_HEADERS'] = 'Content-Type'
 socketio = SocketIO(app, always_connect=True)
 model = yolov5.load('model.pt')
 camera = cv2.VideoCapture(0)
-pokemonList = json.load(open('data.json'))
+pokemonList = json.load(open('data.json', mode='r', encoding='utf-8'))
 
 
 
@@ -24,7 +27,7 @@ def generate_frames():
         if not success:
             break
         else:
-            yolo_detection(frame)
+            # yolo_detection(frame)
             ret, buffer = cv2.imencode('.jpg', frame)
             frame = buffer.tobytes()
 
@@ -57,8 +60,9 @@ def webcam():
 
 
 @app.route('/pokemon')
+@cross_origin()
 def pokemon():
-    rand = random.randint(0, len(pokemonList))
+    rand = random.randint(0, len(pokemonList) - 1)
     return pokemonList[rand]
 
 

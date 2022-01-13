@@ -1,6 +1,8 @@
 @import "abstracts/variables";
+@import "abstracts/animations";
 
-@import "layout/header";
+@import "base/base";
+
+@import "components/types";
+
 @import "layout/pokedex";
-
-@import "components/webcam";

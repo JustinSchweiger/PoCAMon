@@ -1,0 +1,32 @@
+@keyframes unsetAnimation {
+  0% {
+    content: '  .  ';
+  }
+  33% {
+    content: '  .  .  ';
+  }
+  66% {
+    content: '  .  .  .  ';
+  }
+  99% {
+    content: '  .  ';
+  }
+}
+
+@keyframes loading {
+  0% {
+    content: 'loading sound _';
+  }
+  100% {
+    content: 'loading sound  ';
+  }
+}
+
+@keyframes loading-done {
+  0% {
+    content: 'press to play _';
+  }
+  100% {
+    content: 'press to play  '
+  }
+}

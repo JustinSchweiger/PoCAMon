@@ -40,7 +40,7 @@ const getPokemonData = async (pokemonList) => {
         // Getting the image is a bit disgusting cause the devs from Pokewiki tried to make it as hard as possible to scrape their page
         // The main image has 4 different selectors, depending on the pokemon
         const imageElem1 = document.querySelector(
-            '.right > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1) > div:nth-child(1) > span:nth-child(5) > a:nth-child(1) > img:nth-child(1)'
+            '.right > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1) > div:nth-child(1) > span > a > img'
         );
         const imageElem2 = document.querySelector(
             'span.clicktoggle-target:nth-child(6) > a:nth-child(1) > img:nth-child(1)'
