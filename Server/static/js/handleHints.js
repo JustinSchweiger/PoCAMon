@@ -1,12 +1,33 @@
+const outOfTips = new Audio('https://puu.sh/ICgKX.mp3');
+const buttonSound = new Audio('https://puu.sh/ICnAf.mp3');
+
 document.addEventListener("DOMContentLoaded", async (event) => {
     const hintButton = document.getElementById('hint-button');
+    const newHintMessage = document.getElementById('new-hint-message');
     let hintsGiven = 0;
-    const newTip = new Audio('https://puu.sh/ICam7.mp3');
-    const outOfTips = new Audio('https://puu.sh/ICgKX.mp3');
+    let availableHints = 0;
+
+    setInterval(() => {
+        if (hintsGiven === 6) {
+            return;
+        }
+
+        if (availableHints === 0) {
+            newHintMessage.style.marginTop = '-75px';
+            availableHints++;
+        }
+    }, 3000);
+
 
     hintButton.addEventListener('click', () => {
-        if (hintsGiven === 6) {
+        if (availableHints === 0) {
             outOfTips.play();
+            return;
+        }
+
+        newHintMessage.style.marginTop = '0';
+
+        if (hintsGiven === 6) {
             return;
         }
 
@@ -80,162 +101,8 @@ document.addEventListener("DOMContentLoaded", async (event) => {
                 img.src = window.pokemon.image;
                 break;
         }
-        newTip.play();
-
+        buttonSound.play();
         hintsGiven++;
-    })
+        availableHints--;
+    });
 });
-
-const pokemonNames = [
-    'Abra',
-    'Aerodactyl',
-    'Alpollo',
-    'Amonitas',
-    'Amoroso',
-    'Aquana',
-    'Arbok',
-    'Arkani',
-    'Arktos',
-    'Austos',
-    'Bibor',
-    'Bisaflor',
-    'Bisaknosp',
-    'Bisasam',
-    'Blitza',
-    'Bluzuk',
-    'Chaneira',
-    'Digda',
-    'Digdri',
-    'Ditto',
-    'Dodri',
-    'Dodu',
-    'Dragonir',
-    'Dragoran',
-    'Dratini',
-    'Duflor',
-    'Eletek',
-    'Enton',
-    'Entoron',
-    'Evoli',
-    'Flamara',
-    'Flegmon',
-    'Fukano',
-    'Gallopa',
-    'Garados',
-    'Gengar',
-    'Georok',
-    'Geowaz',
-    'Giflor',
-    'Glumanda',
-    'Glurak',
-    'Glutexo',
-    'Golbat',
-    'Goldini',
-    'Golking',
-    'Habitak',
-    'Hornliu',
-    'Hypno',
-    'Ibitak',
-    'Jugong',
-    'Jurob',
-    'Kabuto',
-    'Kabutops',
-    'Kadabra',
-    'Kangama',
-    'Karpador',
-    'Kicklee',
-    'Kingler',
-    'Kleinstern',
-    'Knofensa',
-    'Knogga',
-    'Knuddeluff',
-    'Kokowei',
-    'Kokuna',
-    'Krabby',
-    'Lahmus',
-    'Lapras',
-    'Lavados',
-    'Lektrobal',
-    'Machollo',
-    'Machomei',
-    'Magmar',
-    'Magnetilo',
-    'Magneton',
-    'Maschock',
-    'Mauzi',
-    'Menki',
-    'Mew',
-    'Mewtu',
-    'Muschas',
-    'Myrapla',
-    'Nebulak',
-    'Nidoking',
-    'Nidoqueen',
-    'Nidoran',
-    'Nidorana',
-    'Nidorina',
-    'Nidorino',
-    'Nockchan',
-    'Omot',
-    'Onix',
-    'Owei',
-    'Pantimos',
-    'Paras',
-    'Parasek',
-    'Piepi',
-    'Pikachu',
-    'Pinsir',
-    'Pixi',
-    'Ponita',
-    'Porenta',
-    'Porygon',
-    'Pummeluff',
-    'Quappo',
-    'Quapsel',
-    'Quaputzi',
-    'Raichu',
-    'Rasaff',
-    'Rattfratz',
-    'Rattikarl',
-    'Raupy',
-    'Relaxo',
-    'Rettan',
-    'Rihorn',
-    'Rizeros',
-    'Rossana',
-    'Safcon',
-    'Sandamer',
-    'Sandan',
-    'Sarzenia',
-    'Schiggy',
-    'Schillok',
-    'Schlurp',
-    'Seemon',
-    'Seeper',
-    'Sichlor',
-    'Simsala',
-    'Sleima',
-    'Sleimok',
-    'Smettbo',
-    'Smogmog',
-    'Smogon',
-    'Snobilikat',
-    'Starmie',
-    'Sterndu',
-    'Tangela',
-    'Tauboga',
-    'Tauboss',
-    'Taubsi',
-    'Tauros',
-    'Tentacha',
-    'Tentoxa',
-    'Tragosso',
-    'Traumato',
-    'Turtok',
-    'Ultrigaria',
-    'Voltobal',
-    'Vulnona',
-    'Vulpix',
-    'Zapdos',
-    'Zubat'
-]

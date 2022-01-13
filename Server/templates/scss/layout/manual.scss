@@ -1,0 +1,33 @@
+.game-manual:hover {
+  bottom: 0;
+}
+
+.game-manual {
+  background: $dark-border;
+  opacity: 95%;
+  border-right: 1px solid #e5e5e5;
+  position: absolute;
+  bottom: -480px;
+  right: 20px;
+  width: 400px;
+  overflow: hidden;
+  transition: bottom 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 20px 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  z-index: 9;
+
+  .manual-header {
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+
+  .manual-content {
+    font-size: 1.5em;
+  }
+}

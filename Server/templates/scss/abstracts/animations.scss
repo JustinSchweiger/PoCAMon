@@ -30,3 +30,21 @@
     content: 'press to play  '
   }
 }
+
+@keyframes message-animation {
+  0% {
+    top: -60px;
+  }
+
+  20% {
+    top: 25px;
+  }
+
+  80% {
+    top: 25px;
+  }
+
+  100% {
+    top: -60px;
+  }
+}

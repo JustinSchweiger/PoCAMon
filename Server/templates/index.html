@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/index.css') }}">
-    <!--<link rel="stylesheet" type="text/css" href="../static/styles/index.css">-->
+    <link rel="stylesheet" type="text/css" href="../static/styles/index.css">
     <meta charset="UTF-8">
     <title>PoCAMon</title>
     <link rel="icon" type="image/x-icon" href="../static/img/favicon.png">
@@ -14,10 +14,26 @@
 <div class="background-image"></div>
 <div class="content">
     <div class="logo"><img src="../static/img/logo.png" alt="logo"></div>
+    <div class="game-manual">
+        <p class="manual-header">Anleitung</p>
+        <p class="manual-content">
+            Kannst du erraten, um welches Pokémon es sich handelt?<br>
+            <br>
+
+            Halte einfach eine Pokémon-Karte des gesuchten Pokémon in die Webcam!<br>
+            <br>
+            Falls du nicht weiter weißt, kannst du mit dem "Hint" Knopf auf deinem Pokédex einen Hinweis
+            erhalten.<br><br>
+            Danach musst du jedoch kurze Zeit warten bis ein neuer Hinweis verfügbar ist!
+    </div>
     <div class="container">
         <div class="pokedex-container">
             <div class="pokedex">
                 <div class="pokedex__left">
+                    <div class="message" id="new-hint-message">
+                        <p>Du hast einen neuen Hinweis!</p>
+                        <div class="new-hint-bars"></div>
+                    </div>
                     <div class="top-part-shadow">
                         <div class="top-part">
                             <div class="round big">
@@ -49,7 +65,7 @@
                                     <div class="webcam-shadow">
                                         <div class="webcam">
                                             <!-- Webcam feed will go here -->
-                                            <img src="{{ url_for('webcam') }}" id="webcam" alt="Webcam Feed">
+                                            <img src="{{ url_for('webcam') }}" id="webcam" alt="">
                                         </div>
                                     </div>
                                     <div class="result-shadow">
@@ -68,6 +84,12 @@
                                     <img src="../static/img/hint.png" alt="Hint">
                                 </button>
                                 <img src="../static/img/HintArrow.png" alt="Hint Arrow">
+                            </div>
+                            <div class="reload-container">
+                                <button class="round" id="reload-button">
+                                    <img src="../static/img/reload.png" alt="Reload Page">
+                                </button>
+                                <img src="../static/img/ReloadArrow.png" alt="Reload Arrow">
                             </div>
                         </div>
                         <div class="bot-container">
@@ -96,6 +118,7 @@
                     <div class="bot-part">
                         <div class="row row-1">
                             <div class="silhouette-container">
+                                <div class="hidden finish"><img id="finish-img" src="" alt=""></div>
                                 <canvas id="silhouette-hint"></canvas>
                             </div>
                             <div class="cry-container">
@@ -135,10 +158,18 @@
         </div>
     </div>
 </div>
+<div class="message" data-save-message>
+    <p>File is being generated ...</p>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
 <script src="{{ url_for('static',filename='js/handlePokemon.js') }}"></script>
 <script src="{{ url_for('static',filename='js/handleHints.js') }}"></script>
+<script src="{{ url_for('static',filename='js/reloadButton.js') }}"></script>
+<script src="{{ url_for('static',filename='js/detectedPokemon.js') }}"></script>
 <!--<script src="../static/js/handleHints.js"></script>
-<script src="../static/js/handlePokemon.js"></script>-->
+<script src="../static/js/detectedPokemon.js"></script>
+<script src="../static/js/handlePokemon.js"></script>
+<script src="../static/js/reloadButton.js"></script>-->
 </body>
 </html>

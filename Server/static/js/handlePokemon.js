@@ -4,6 +4,5 @@ document.addEventListener("DOMContentLoaded", async (event) => {
         .then(response => response.json())
         .then(json => {
             window.pokemon = json;
-            console.log(json);
         });
 });

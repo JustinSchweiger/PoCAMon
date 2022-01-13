@@ -1,24 +1,21 @@
 import cv2
-from flask import Flask, render_template, Response
-from flask_socketio import SocketIO, emit
 import yolov5
-from PIL import Image
 import numpy as np
 import json
 import random
+from flask import Flask, render_template, Response
+from flask_socketio import SocketIO
 from flask_cors import CORS, cross_origin
-
 from torch import Tensor
 
 app = Flask(__name__)
-cors = CORS(app)
 app.config['SECRET_KEY'] = 'secret!'
 app.config['CORS_HEADERS'] = 'Content-Type'
+cors = CORS(app)
 socketio = SocketIO(app, always_connect=True)
-model = yolov5.load('model.pt')
 camera = cv2.VideoCapture(0)
+model = yolov5.load('model.pt')
 pokemonList = json.load(open('data.json', mode='r', encoding='utf-8'))
-
 
 
 def generate_frames():
@@ -27,7 +24,7 @@ def generate_frames():
         if not success:
             break
         else:
-            # yolo_detection(frame)
+            yolo_detection(frame)
             ret, buffer = cv2.imencode('.jpg', frame)
             frame = buffer.tobytes()
 
@@ -46,7 +43,7 @@ def yolo_detection(image):
             class_name = results.names[class_id]
             detected_classes.add(class_name)
 
-    print(str(sorted(detected_classes)))
+    socketio.emit('detected_pokemon', sorted(detected_classes))
 
 
 @app.route('/')
