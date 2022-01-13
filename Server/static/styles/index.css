@@ -573,7 +573,7 @@ header {
 }
 
 body {
-  background-image: url("../../templates/images/Pokemon wallpaper.jpg");
+  background-image: url("../img/Pokemon wallpaper.jpg");
   background-size: 100% 100%;
 }
 
@@ -600,9 +600,9 @@ body {
   width: 100%;
 }
 
-#camera-feed {
-  width: auto;
-  height: 100%;
+#webcam {
+  height: auto;
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */

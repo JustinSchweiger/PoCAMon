@@ -1,0 +1,6 @@
+opencv-python~=4.5.5.62
+yolov5~=6.0.6
+numpy~=1.22.0
+Flask~=2.0.2
+Pillow~=9.0.0
+torch~=1.10.1
