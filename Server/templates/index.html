@@ -2,189 +2,132 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/index.css') }}">
+    <!--<link rel="stylesheet" type="text/css" href="../static/styles/index.css">-->
     <meta charset="UTF-8">
     <title>PoCAMon</title>
-    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../static/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<header>
-    <img src="../static/img/logo.png" alt="logo" id="logo">
-</header>
-<div id="pokedex-container">
-    <div id="pokedex-wrapper">
-        <div id="pokedex-left">
-            <div id="left-top">
-                <div id="led-part-shadow">
-                    <div id="led-part">
-                        <div class="led" id="led-big">
-                            <div id="led-big-primary">
-                                <div id="led-big-secondary">
-                                    <div id="led-big-reflection">
-
-                                    </div>
+<div class="background-image"></div>
+<div class="content">
+    <div class="logo"><img src="../static/img/logo.png" alt="logo"></div>
+    <div class="container">
+        <div class="pokedex-container">
+            <div class="pokedex">
+                <div class="pokedex__left">
+                    <div class="top-part-shadow">
+                        <div class="top-part">
+                            <div class="round big">
+                                <div class="round big_medium">
+                                    <div class="round big_small"></div>
+                                </div>
+                            </div>
+                            <div class="round small">
+                                <div class="round very-small">
+                                    <div class="round super-small"></div>
+                                </div>
+                            </div>
+                            <div class="round small">
+                                <div class="round very-small">
+                                    <div class="round super-small"></div>
+                                </div>
+                            </div>
+                            <div class="round small">
+                                <div class="round very-small">
+                                    <div class="round super-small"></div>
                                 </div>
                             </div>
                         </div>
-                        <div id="led-small-container">
-                            <div class="led-small led" id="led-1">
-                                <div id="led-1-primary">
-                                    <div id="led-1-secondary">
-                                        <div id="led-1-reflection">
-
+                    </div>
+                    <div class="bot-part">
+                        <div class="top-container">
+                            <div class="webcam-container-shadow">
+                                <div class="webcam-container">
+                                    <div class="webcam-shadow">
+                                        <div class="webcam">
+                                            <!-- Webcam feed will go here -->
+                                            <img src="{{ url_for('webcam') }}" id="webcam" alt="Webcam Feed">
+                                        </div>
+                                    </div>
+                                    <div class="result-shadow">
+                                        <div class="result">
+                                            <p id="result">
+                                                <!-- The detected Pokémon will go in here -->
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="led-small led" id="led-2">
-                                <div id="led-2-primary">
-                                    <div id="led-2-secondary">
-                                        <div id="led-2-reflection">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="led-small led" id="led-3">
-                                <div id="led-3-primary">
-                                    <div id="led-3-secondary">
-                                        <div id="led-3-reflection">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                    </div>
-                </div>
-                <div id="screen-part">
-                    <div class="outwards-shadow" id="screen-border-shadow">
-                        <div id="screen-border">
-                            <div id="screen-components">
-                                <div class="inwards-shadow" id="cam-feed-screen-shadow">
-                                    <div id="cam-feed-screen">
-                                        <img src="{{ url_for('webcam') }}" id="webcam" alt="webcam feed">
-                                    </div>
-                                </div>
-                                <div class="inwards-shadow" id="cam-feed-text-shadow">
-                                    <div id="cam-feed-textbox">
-                                        Mewtu
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="hint-button-part">
-                    <div id="hint-button-container">
-                        <div class="outwards-shadow" id="hint-button-shadow">
-                            <button id="hint-button">
-                                <img src="../static/img/hint.png" id="hint-image">
-                            </button>
-                        </div>
-                        <div id="hint-image-container">
-                            <img src="../static/img/HintArrow.png" id="hint-button-image">
-                        </div>
-                    </div>
-
-                    <div class="hint-led" id="hint-led-1">
-                        <div id="hint-led-1-light">
-
-                        </div>
-                    </div>
-                    <div class="hint-led" id="hint-led-2">
-                        <div id="hint-led-2-light">
-
-                        </div>
-                    </div>
-                </div>
-                <div id="guess-validation-screen-part">
-                    <div class="inwards-shadow" id="guess-validation-screen-shadow">
-                        <div id="guess-validation-screen">
-                            <img src="../static/img/right.png" class="lcdValidation" id="lcdRight">
-                            <img src="../static/img/wrong.png" class="lcdValidation" id="lcdFalse">
-                        </div>
-                    </div>
-                    <div class="outwards-shadow" id="control-pad-shadow">
-                        <div id="control-pad">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="pokedex-hinge">
-            <div class="hinge-end" id="hinge-top">
-
-            </div>
-            <div id="hinge-middle">
-
-            </div>
-            <div class="hinge-end" id="hinge-bottom">
-
-            </div>
-        </div>
-        <div id="pokedex-right">
-            <div id="pokedex-right-inside-shadow">
-                <div id="pokedex-right-inside">
-                    <div id="size-color-part">
-                        <div class="inwards-shadow size-color-screen-shadow" id="size-screen-shadow">
-                            <div class="size-color-screen" id="size-screen">
-                                <span class="size-color-text" id="size-text">
-                                    Größe
-                                </span>
-                            </div>
-                        </div>
-                        <div class="inwards-shadow size-color-screen-shadow" id="color-screen-shadow">
-                            <div class="size-color-screen" id="color-screen">
-                                <span class="size-color-text" id="color-text">
-                                    Farbe
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="description-part">
-                        <div id="type-part">
-                            <div class="inwards-shadow type-screen-shadow" id="type-screen-1-shadow">
-                                <div class="type-screen" id="type-1-screen">
-                                    Typ 1
-                                </div>
-                            </div>
-                            <div class="inwards-shadow type-screen-shadow" id="type-screen-2-shadow">
-                                <div class="type-screen" id="type-2-screen">
-                                    Typ 2
-                                </div>
-                            </div>
-                        </div>
-                        <div class="inwards-shadow" id="description-screen-shadow">
-                            <div id="description-screen">
-                                <span id="description-text">
-                                    Beschreibung
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="sound-silhouette-part">
-                        <div id="sound-part">
-                            <div id="speaker-image-container">
-                                <img src="../static/img/speaker.png" id="speaker">
-                            </div>
-                            <div class="inwards-shadow" id="sound-screen-shadow">
-                                <div id="sound-screen">
-                                    Sound
-                                </div>
-                            </div>
-                            <div class="outwards-shadow" id="sound-button-shadow">
-                                <button id="sound-button">
-                                    <img src="../static/img/sound.png" id="sound-image">
+                        <div class="mid-container">
+                            <div class="hint-container">
+                                <button class="round" id="hint-button">
+                                    <img src="../static/img/hint.png" alt="Hint">
                                 </button>
+                                <img src="../static/img/HintArrow.png" alt="Hint Arrow">
                             </div>
-
                         </div>
-                        <div class="inwards-shadow" id="silhouette-screen-shadow">
-                            <div id="silhouette-screen">
-                                Silhouette
+                        <div class="bot-container">
+                            <div class="status-shadow">
+                                <div class="status">
+                                    <div id="status-message" class="unset"></div>
+                                </div>
                             </div>
+                            <div class="dpad-shadow">
+                                <div class="dpad">
+                                    <div class="round"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pokedex__middle">
+                    <div class="pokedex__middle--top"></div>
+                    <div class="pokedex__middle--mid">
+                        <div class="pokedex__middle--mid--lines"></div>
+                    </div>
+                    <div class="pokedex__middle--bot"></div>
+                </div>
+                <div class="pokedex__right">
+                    <div class="top-part"></div>
+                    <div class="bot-part">
+                        <div class="row row-1">
+                            <div class="silhouette-container">
+                                <canvas id="silhouette-hint"></canvas>
+                            </div>
+                            <div class="cry-container">
+                                <div class="top-row">
+                                    <div class="status-shadow">
+                                        <div class="status" id="sound-status"></div>
+                                    </div>
+                                </div>
+                                <div class="bot-row">
+                                    <button id="cry-button">
+                                        <img src="../static/img/sound.png" alt="Sound Image">
+                                    </button>
+                                    <img src="../static/img/speaker.png" alt="Speaker Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-2">
+                            <div class="size-and-color-container">
+                                <div class="size" id="size-hint-container">
+                                    <p id="size-hint"></p>
+                                </div>
+                                <div class="color" id="color-hint-container">
+                                    <p id="color-hint"></p>
+                                </div>
+                            </div>
+                            <div class="pokedex-hint-container">
+                                <p id="pokedex-hint"></p>
+                            </div>
+                        </div>
+                        <div class="row row-3">
+                            <div class="type" id="type-1-hint"></div>
+                            <div class="type" id="type-2-hint"></div>
                         </div>
                     </div>
                 </div>
@@ -193,6 +136,9 @@
     </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
-<script src="{{ url_for('static',filename='js/webcam.js') }}"></script>
+<script src="{{ url_for('static',filename='js/handlePokemon.js') }}"></script>
+<script src="{{ url_for('static',filename='js/handleHints.js') }}"></script>
+<!--<script src="../static/js/handleHints.js"></script>
+<script src="../static/js/handlePokemon.js"></script>-->
 </body>
 </html>

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  overflow: hidden;
+}
+
+.background-image {
+  background-image: url("../img/Pokemon wallpaper.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  filter: blur(10px);
+  z-index: -2;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+  height: 100vh;
+  width: 100%;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 100px;
+
+    img {
+      height: 250px;
+      width: auto;
+      z-index: -1;
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 1300px;
+
+    .pokedex-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+}
+
+.round {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.hint-active {
+  transition: all 1s;
+  background-color: #31A7F1 !important;
+}
+
+.sound-loaded:after {
+  transition: all 1s;
+  content: '';
+  animation: loading-done 2s linear infinite !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.big {
+  background-color: #199BD3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+
+.big_medium {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  height: 70%;
+  margin: 7% 0 0 7%;
+  background-color: #2FE7FF;
+}
+
+.big_small {
+  background-color: #ffffff;
+  margin: 15% 0 0 15%;
+  width: 30%;
+  height: 30%;
+}
+
+.small {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.very-small {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  height: 70%;
+  margin: 10% 0 0 10%;
+}
+
+.super-small {
+  margin: 20% 0 0 20%;
+  width: 30%;
+  height: 30%;
+}
