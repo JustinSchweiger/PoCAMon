@@ -7,12 +7,29 @@
 		"size": "1,7 m",
 		"color": "Blau",
 		"cry": "https://www.pokewiki.de/images/7/72/Ruf_144.mp3",
-		"image": "https://www.pokewiki.de/images/thumb/8/81/Sugimori_144a.png/228px-Sugimori_144a.png",
+		"image": "https://www.pokewiki.de/images/thumb/4/43/Sugimori_144.png/220px-Sugimori_144.png",
 		"types": [
 			"Eis",
 			"Flug"
 		],
-		"pokedexEntry": "Ein legendäres VOGEL-POKéMON, das angeblich in Gletschern verirrten Wanderern den Weg weist."
+		"pokedexEntry": "Ein legendäres VOGEL-POKéMON, das angeblich in Gletschern verirrten Wanderern den Weg weist.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/3/3c/Arktos_%28Fossil_2%29.jpg/400px-Arktos_%28Fossil_2%29.jpg",
+			"https://www.pokewiki.de/images/7/7d/Arktos_%28Trading_Card_Game_1_P03%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/34/Articuno%2C_Moltres%2C_and_Zapdos_%28Promokarte%29.jpg/400px-Articuno%2C_Moltres%2C_and_Zapdos_%28Promokarte%29.jpg",
+			"https://www.pokewiki.de/images/thumb/6/6e/Arktos_%28Wizards_Black_Star_Promos_22%29.jpg/400px-Arktos_%28Wizards_Black_Star_Promos_22%29.jpg",
+			"https://www.pokewiki.de/images/thumb/9/9b/Arktos_%28Wizards_Black_Star_Promos_48%29.jpg/400px-Arktos_%28Wizards_Black_Star_Promos_48%29.jpg",
+			"https://www.pokewiki.de/images/3/30/Norberts_Arktos_%28Pok%C3%A9mon_Card_%E2%98%85_VS_042%29.jpg",
+			"https://www.pokewiki.de/images/9/98/Arktos_%28T_Promotional_cards_014%29.jpg",
+			"https://www.pokewiki.de/images/f/fe/Arktos_%28Skyridge_4%29.jpg",
+			"https://www.pokewiki.de/images/thumb/b/b0/Arktos_ex_%28EX_Feuerrot_%26_Blattgr%C3%BCn_114%29.jpg/400px-Arktos_ex_%28EX_Feuerrot_%26_Blattgr%C3%BCn_114%29.jpg",
+			"https://www.pokewiki.de/images/thumb/9/9a/Rockets_Arktos_ex_%28EX_Team_Rocket_Returns_96%29.jpg/400px-Rockets_Arktos_ex_%28EX_Team_Rocket_Returns_96%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/ef/Arktos_ex_%28Nintendo_Black_Star_Promos_032%29.jpg/400px-Arktos_ex_%28Nintendo_Black_Star_Promos_032%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/e2/Arktos_%28Majest%C3%A4tischer_Morgen_1%29.jpg/400px-Arktos_%28Majest%C3%A4tischer_Morgen_1%29.jpg",
+			"https://www.pokewiki.de/images/d/d2/Arktos_%28Ultimative_Sieger_16%29.jpg",
+			"https://www.pokewiki.de/images/thumb/2/22/Arktos_%28Kommende_Schicksale_27%29.png/400px-Arktos_%28Kommende_Schicksale_27%29.png",
+			"https://www.pokewiki.de/images/thumb/f/fe/Arktos-EX_%28Plasma-Sturm_25%29.png/400px-Arktos-EX_%28Plasma-Sturm_25%29.png"
+		]
 	},
 	{
 		"id": "001",
@@ -27,7 +44,24 @@
 			"Pflanze",
 			"Gift"
 		],
-		"pokedexEntry": "Dieses POKéMON trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst."
+		"pokedexEntry": "Dieses POKéMON trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/8/86/Bisasam_%28Grundset_44%29.jpg/400px-Bisasam_%28Grundset_44%29.jpg",
+			"https://www.pokewiki.de/images/f/f5/Bisasam_%28Kakuch%C5%8D_Sheet_1%29.jpg",
+			"https://www.pokewiki.de/images/thumb/6/66/Erikas_Bisasam_%28Gym_Challenge_39%29.jpg/400px-Erikas_Bisasam_%28Gym_Challenge_39%29.jpg",
+			"https://www.pokewiki.de/images/f/ff/Bisasam_%28Fushigidane_Deck_1%29.jpg",
+			"https://www.pokewiki.de/images/thumb/4/44/Bisasam_%28Expedition_94%29.jpg/400px-Bisasam_%28Expedition_94%29.jpg",
+			"https://www.pokewiki.de/images/thumb/9/94/Bisasam_%28Expedition_95%29.jpg/400px-Bisasam_%28Expedition_95%29.jpg",
+			"https://www.pokewiki.de/images/c/cc/Bisasam_%28McDonald%E2%80%99s_Pok%C3%A9mon-e_Minimum_Pack_001%29.jpg",
+			"https://www.pokewiki.de/images/thumb/b/b5/Bisasam_%28EX_Team_Magma_vs_Team_Aqua_39%29.jpg/400px-Bisasam_%28EX_Team_Magma_vs_Team_Aqua_39%29.jpg",
+			"https://www.pokewiki.de/images/6/61/Bisasam_%28EX_Feuerrot_%26_Blattgr%C3%BCn_54%29.jpg",
+			"https://www.pokewiki.de/images/thumb/d/d3/Bisasam_%28EX_Feuerrot_%26_Blattgr%C3%BCn_55%29.jpg/400px-Bisasam_%28EX_Feuerrot_%26_Blattgr%C3%BCn_55%29.jpg",
+			"https://www.pokewiki.de/images/thumb/6/66/Bisasam_%28POP_Serie_2_12%29.jpg/400px-Bisasam_%28POP_Serie_2_12%29.jpg",
+			"https://www.pokewiki.de/images/thumb/8/84/Bisasam_%28EX_Crystal_Guardians_45%29.jpg/400px-Bisasam_%28EX_Crystal_Guardians_45%29.jpg",
+			"https://www.pokewiki.de/images/thumb/5/59/Bisasam_%28EX_Crystal_Guardians_46%29.jpg/400px-Bisasam_%28EX_Crystal_Guardians_46%29.jpg",
+			"https://www.pokewiki.de/images/thumb/a/ab/Bisasam_%28R%C3%A4tselhafte_Wunder_77%29.jpg/400px-Bisasam_%28R%C3%A4tselhafte_Wunder_77%29.jpg",
+			"https://www.pokewiki.de/images/5/52/Bisasam_%28Ultimative_Sieger_93%29.jpg"
+		]
 	},
 	{
 		"id": "132",
@@ -41,7 +75,24 @@
 		"types": [
 			"Normal"
 		],
-		"pokedexEntry": "Dieses POKéMON kann die Gene von Gegnern kopieren und sich sofort in deren Ebenbild verwandeln."
+		"pokedexEntry": "Dieses POKéMON kann die Gene von Gegnern kopieren und sich sofort in deren Ebenbild verwandeln.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/0/08/Ditto_%28Fossil_3%29.jpg/400px-Ditto_%28Fossil_3%29.jpg",
+			"https://www.pokewiki.de/images/d/d4/Ditto_%28Kakuch%C5%8D_Sheet_2%29.jpg",
+			"https://www.pokewiki.de/images/5/5b/Ditto_%28Trading_Card_Game_1_D42%29.jpg",
+			"https://www.pokewiki.de/images/0/09/Kogas_Ditto_%28Gym_Challenge_10%29.jpg",
+			"https://www.pokewiki.de/images/5/55/Ditto_%28Skyridge_51%29.jpg",
+			"https://www.pokewiki.de/images/1/18/Ditto_%28EX_Feuerrot_%26_Blattgr%C3%BCn_4%29.jpg",
+			"https://www.pokewiki.de/images/thumb/2/2b/Ditto_%28EX_Delta_Species_35%29.jpg/400px-Ditto_%28EX_Delta_Species_35%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/32/Ditto_%28Erwachte_Legenden_27%29.jpg/400px-Ditto_%28Erwachte_Legenden_27%29.jpg",
+			"https://www.pokewiki.de/images/thumb/7/71/Ditto_%28Triumph_17%29.png/400px-Ditto_%28Triumph_17%29.png",
+			"https://www.pokewiki.de/images/thumb/3/3d/Ditto_%28%C3%9Cberschrittene_Schwellen_108%29.png/400px-Ditto_%28%C3%9Cberschrittene_Schwellen_108%29.png",
+			"https://www.pokewiki.de/images/thumb/5/52/Ditto_%28XY_Black_Star_Promos_XY40%29.png/400px-Ditto_%28XY_Black_Star_Promos_XY40%29.png",
+			"https://www.pokewiki.de/images/thumb/e/ef/Ditto_%E2%97%87_%28Echo_des_Donners_154%29.png/400px-Ditto_%E2%97%87_%28Echo_des_Donners_154%29.png",
+			"https://www.pokewiki.de/images/thumb/c/c7/Ditto_%28Meisterdetektiv_Pikachu_17%29.png/400px-Ditto_%28Meisterdetektiv_Pikachu_17%29.png",
+			"https://www.pokewiki.de/images/thumb/5/52/Ditto-V_%28Gl%C3%A4nzendes_Schicksal_050%29.png/400px-Ditto-V_%28Gl%C3%A4nzendes_Schicksal_050%29.png",
+			"https://www.pokewiki.de/images/thumb/1/1c/Ditto-VMAX_%28Gl%C3%A4nzendes_Schicksal_051%29.png/400px-Ditto-VMAX_%28Gl%C3%A4nzendes_Schicksal_051%29.png"
+		]
 	},
 	{
 		"id": "125",
@@ -55,7 +106,24 @@
 		"types": [
 			"Elektro"
 		],
-		"pokedexEntry": "Dieses POKéMON lebt in der Nähe von Kraftwerken. In Städten kann es Stromausfälle verursachen."
+		"pokedexEntry": "Dieses POKéMON lebt in der Nähe von Kraftwerken. In Städten kann es Stromausfälle verursachen.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/9/94/Elektek_%28Platin_128%29.jpg/400px-Elektek_%28Platin_128%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/0b/Major_Bobs_Elektek_%28Gym_Heroes_6%29.jpg/400px-Major_Bobs_Elektek_%28Gym_Heroes_6%29.jpg",
+			"https://www.pokewiki.de/images/thumb/f/f3/Major_Bobs_Elektek_%28Gym_Heroes_27%29.jpg/400px-Major_Bobs_Elektek_%28Gym_Heroes_27%29.jpg",
+			"https://www.pokewiki.de/images/thumb/2/26/Elektek_%28Wizards_Black_Star_Promos_2%29.jpg/400px-Elektek_%28Wizards_Black_Star_Promos_2%29.jpg",
+			"https://www.pokewiki.de/images/5/55/Elektek_%28Fushigidane_Deck_26%29.jpg",
+			"https://www.pokewiki.de/images/thumb/a/a5/Elektek_%28Neo_Genesis_33%29.jpg/400px-Elektek_%28Neo_Genesis_33%29.jpg",
+			"https://www.pokewiki.de/images/thumb/c/c7/Elektek_%28Wizards_Black_Star_Promos_46%29.jpg/400px-Elektek_%28Wizards_Black_Star_Promos_46%29.jpg",
+			"https://www.pokewiki.de/images/d/d7/Jasmins_Elektek_%28Pok%C3%A9mon_Card_%E2%98%85_VS_029%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/33/Elektek_%28Expedition_76%29.jpg/400px-Elektek_%28Expedition_76%29.jpg",
+			"https://www.pokewiki.de/images/d/d8/Elektek_ex_%28EX_Rubin_%26_Saphir_97%29.jpg",
+			"https://www.pokewiki.de/images/8/89/Elektek_%28EX_Sandsturm_35%29.jpg",
+			"https://www.pokewiki.de/images/d/d0/Elektek_%28EX_Verborgene_M%C3%A4chte_22%29.jpg",
+			"https://www.pokewiki.de/images/f/f8/Elektek_%CE%B4_%28EX_Dragon_Frontiers_29%29.jpg",
+			"https://www.pokewiki.de/images/thumb/f/f2/Elektek_%28Diamant_%26_Perl_81%29.jpg/400px-Elektek_%28Diamant_%26_Perl_81%29.jpg",
+			"https://www.pokewiki.de/images/thumb/b/ba/Elektek_%28R%C3%A4tselhafte_Wunder_87%29.jpg/400px-Elektek_%28R%C3%A4tselhafte_Wunder_87%29.jpg"
+		]
 	},
 	{
 		"id": "133",
@@ -65,11 +133,28 @@
 		"size": "0,3 m",
 		"color": "Braun",
 		"cry": "https://www.pokewiki.de/images/2/24/Ruf_133.mp3",
-		"image": "https://www.pokewiki.de/images/thumb/1/13/Sugimori_133g1.png/209px-Sugimori_133g1.png",
+		"image": "https://www.pokewiki.de/images/thumb/3/37/Sugimori_133.png/203px-Sugimori_133.png",
 		"types": [
 			"Normal"
 		],
-		"pokedexEntry": "Der Gen-Code von EVOLI ist uneinheitlich. Die Strahlung von Element-Steinen läßt es mutieren."
+		"pokedexEntry": "Der Gen-Code von EVOLI ist uneinheitlich. Die Strahlung von Element-Steinen läßt es mutieren.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/f/f3/Evoli_%28Dschungel_51%29.jpg/400px-Evoli_%28Dschungel_51%29.jpg",
+			"https://www.pokewiki.de/images/thumb/c/c4/Evoli_%28Team_Rocket_55%29.jpg/400px-Evoli_%28Team_Rocket_55%29.jpg",
+			"https://www.pokewiki.de/images/3/35/Evoli_%28Kakuch%C5%8D_Sheet_1%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/3b/Evoli_%28Wizards_Black_Star_Promos_11%29.jpg/400px-Evoli_%28Wizards_Black_Star_Promos_11%29.jpg",
+			"https://www.pokewiki.de/images/1/1a/Major_Bobs_Evoli_%28Gym_Challenge_51%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/13/Evoli_%28Neo_Entdeckung_38%29.jpg/400px-Evoli_%28Neo_Entdeckung_38%29.jpg",
+			"https://www.pokewiki.de/images/7/79/Evoli_%28Aquapolis_75%29.jpg",
+			"https://www.pokewiki.de/images/3/3c/Evoli_%28Skyridge_54%29.jpg",
+			"https://www.pokewiki.de/images/8/80/Evoli_%28EX_Sandsturm_63%29.jpg",
+			"https://www.pokewiki.de/images/0/0b/Evoli_%28EX_Verborgene_M%C3%A4chte_55%29.jpg",
+			"https://www.pokewiki.de/images/f/fc/Evoli_%CE%B4_%28EX_Delta_Species_68%29.jpg",
+			"https://www.pokewiki.de/images/3/33/Evoli_%28EX_Delta_Species_69%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/08/Evoli_%28POP_Serie_3_13%29.jpg/400px-Evoli_%28POP_Serie_3_13%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/10/Evoli_%28Majest%C3%A4tischer_Morgen_62%29.jpg/400px-Evoli_%28Majest%C3%A4tischer_Morgen_62%29.jpg",
+			"https://www.pokewiki.de/images/thumb/4/4e/Evoli_%28Majest%C3%A4tischer_Morgen_63%29.jpg/400px-Evoli_%28Majest%C3%A4tischer_Morgen_63%29.jpg"
+		]
 	},
 	{
 		"id": "005",
@@ -83,7 +168,24 @@
 		"types": [
 			"Feuer"
 		],
-		"pokedexEntry": "Wenn GLUTEXO mit seinem Schwanz schwingt, steigt die Temperatur ins Unermeßliche."
+		"pokedexEntry": "Wenn GLUTEXO mit seinem Schwanz schwingt, steigt die Temperatur ins Unermeßliche.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/e/ed/Glutexo_%28Grundset_24%29.jpg/400px-Glutexo_%28Grundset_24%29.jpg",
+			"https://www.pokewiki.de/images/thumb/c/cc/Dunkles_Glutexo_%28Team_Rocket_32%29.jpg/400px-Dunkles_Glutexo_%28Team_Rocket_32%29.jpg",
+			"https://www.pokewiki.de/images/7/7d/Pyros_Glutexo_%28Gym_Challenge_31%29.jpg",
+			"https://www.pokewiki.de/images/thumb/d/d5/Glutexo_%28Expedition_73%29.jpg/400px-Glutexo_%28Expedition_73%29.jpg",
+			"https://www.pokewiki.de/images/4/48/Glutexo_%28T_Promotional_cards_011%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/3e/Glutexo_%28EX_Drache_99%29.jpg/400px-Glutexo_%28EX_Drache_99%29.jpg",
+			"https://www.pokewiki.de/images/thumb/a/a8/Glutexo_%28EX_Feuerrot_%26_Blattgr%C3%BCn_31%29.jpg/400px-Glutexo_%28EX_Feuerrot_%26_Blattgr%C3%BCn_31%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/33/Glutexo_%28EX_Crystal_Guardians_29%29.jpg/400px-Glutexo_%28EX_Crystal_Guardians_29%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/1c/Glutexo_%CE%B4_%28EX_Crystal_Guardians_30%29.jpg/400px-Glutexo_%CE%B4_%28EX_Crystal_Guardians_30%29.jpg",
+			"https://www.pokewiki.de/images/e/ee/Glutexo_%28EX_Power_Keepers_28%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/ed/Glutexo_%28R%C3%A4tselhafte_Wunder_46%29.jpg/400px-Glutexo_%28R%C3%A4tselhafte_Wunder_46%29.jpg",
+			"https://www.pokewiki.de/images/b/bc/Glutexo_%28Arceus_35%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/3e/Glutexo_%28%C3%9Cberschrittene_Schwellen_19%29.png/400px-Glutexo_%28%C3%9Cberschrittene_Schwellen_19%29.png",
+			"https://www.pokewiki.de/images/thumb/7/73/Glutexo_%28Generationen_RC4%29.png/400px-Glutexo_%28Generationen_RC4%29.png",
+			"https://www.pokewiki.de/images/thumb/1/16/Glutexo_%28Evolution_10%29.png/400px-Glutexo_%28Evolution_10%29.png"
+		]
 	},
 	{
 		"id": "129",
@@ -97,7 +199,24 @@
 		"types": [
 			"Wasser"
 		],
-		"pokedexEntry": "Die urzeitlichen Vorfahren dieses POKéMON waren sehr viel stärker als ihre heutigen Nachkommen."
+		"pokedexEntry": "Die urzeitlichen Vorfahren dieses POKéMON waren sehr viel stärker als ihre heutigen Nachkommen.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/3/30/Karpador_%28Grundset_35%29.jpg/400px-Karpador_%28Grundset_35%29.jpg",
+			"https://www.pokewiki.de/images/thumb/6/67/Karpador_%28Team_Rocket_47%29.jpg/400px-Karpador_%28Team_Rocket_47%29.jpg",
+			"https://www.pokewiki.de/images/thumb/4/4f/Karpador_%28Pok%C3%A9mon_Card_%E2%98%85_Web_035%29.jpg/400px-Karpador_%28Pok%C3%A9mon_Card_%E2%98%85_Web_035%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/11/Giovannis_Karpador_%28Gym_Challenge_73%29.jpg/400px-Giovannis_Karpador_%28Gym_Challenge_73%29.jpg",
+			"https://www.pokewiki.de/images/4/44/Mistys_Karpador_%28Gym_Challenge_88%29.jpg",
+			"https://www.pokewiki.de/images/7/72/Schimmerndes_Karpador_%28Neo_Revelation_66%29.jpg",
+			"https://www.pokewiki.de/images/thumb/c/c5/Karpador_%28Expedition_118%29.jpg/400px-Karpador_%28Expedition_118%29.jpg",
+			"https://www.pokewiki.de/images/thumb/f/fb/Karpador_%28Skyridge_75%29.jpg/400px-Karpador_%28Skyridge_75%29.jpg",
+			"https://www.pokewiki.de/images/9/90/Karpador_%28EX_Drache_60%29.jpg",
+			"https://www.pokewiki.de/images/7/72/Karpador_%28EX_Feuerrot_%26_Blattgr%C3%BCn_67%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/1a/Karpador_%28EX_Team_Rocket_Returns_65%29.jpg/400px-Karpador_%28EX_Team_Rocket_Returns_65%29.jpg",
+			"https://www.pokewiki.de/images/7/75/Karpador_%28EX_Deoxys_64%29.jpg",
+			"https://www.pokewiki.de/images/thumb/8/85/Karpador_%CE%B4_%28EX_Holon_Phantoms_69%29.jpg/400px-Karpador_%CE%B4_%28EX_Holon_Phantoms_69%29.jpg",
+			"https://www.pokewiki.de/images/thumb/c/c2/Karpador_%28Geheimnisvolle_Sch%C3%A4tze_89%29.jpg/400px-Karpador_%28Geheimnisvolle_Sch%C3%A4tze_89%29.jpg",
+			"https://www.pokewiki.de/images/a/a4/Karpador_%28Sturmtief_65%29.jpg"
+		]
 	},
 	{
 		"id": "074",
@@ -107,12 +226,29 @@
 		"size": "0,4 m",
 		"color": "Braun",
 		"cry": "https://www.pokewiki.de/images/5/5f/Ruf_074.mp3",
-		"image": "https://www.pokewiki.de/images/thumb/f/f6/Sugimori_074a.png/250px-Sugimori_074a.png",
+		"image": "https://www.pokewiki.de/images/thumb/3/3a/Sugimori_074.png/250px-Sugimori_074.png",
 		"types": [
 			"Gestein",
 			"Boden"
 		],
-		"pokedexEntry": "Wanderer stolpern in den Bergen häufig über dieses POKéMON, da es wie ein Stein aussieht."
+		"pokedexEntry": "Wanderer stolpern in den Bergen häufig über dieses POKéMON, da es wie ein Stein aussieht.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/d/d4/Kleinstein_%28Fossil_47%29.jpg/400px-Kleinstein_%28Fossil_47%29.jpg",
+			"https://www.pokewiki.de/images/1/17/Kleinstein_%28Kakuch%C5%8D_Sheet_1%29.jpg",
+			"https://www.pokewiki.de/images/thumb/5/50/Rockos_Kleinstein_%28Gym_Heroes_38%29.jpg/400px-Rockos_Kleinstein_%28Gym_Heroes_38%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/02/Rockos_Kleinstein_%28Gym_Heroes_66%29.jpg/400px-Rockos_Kleinstein_%28Gym_Heroes_66%29.jpg",
+			"https://www.pokewiki.de/images/2/2f/Rockos_Kleinstein_%28Gym_Challenge_68%29.jpg",
+			"https://www.pokewiki.de/images/c/c4/Kleinstein_%28Neo_Revelation_44%29.jpg",
+			"https://www.pokewiki.de/images/b/b6/Kleinstein_%28Chicorita_Sideboard%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/04/Kleinstein_%28Expedition_110%29.jpg/400px-Kleinstein_%28Expedition_110%29.jpg",
+			"https://www.pokewiki.de/images/8/8b/Kleinstein_%28EX_Drache_55%29.jpg",
+			"https://www.pokewiki.de/images/8/8d/Kleinstein_%28EX_Drache_56%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/03/Kleinstein_%28EX_Legend_Maker_53%29.jpg/400px-Kleinstein_%28EX_Legend_Maker_53%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/e3/Kleinstein_%28Geheimnisvolle_Sch%C3%A4tze_84%29.jpg/400px-Kleinstein_%28Geheimnisvolle_Sch%C3%A4tze_84%29.jpg",
+			"https://www.pokewiki.de/images/f/f2/Kleinstein_%28Ultimative_Sieger_105%29.jpg",
+			"https://www.pokewiki.de/images/1/1f/Kleinstein_%28Arceus_65%29.jpg",
+			"https://www.pokewiki.de/images/thumb/8/8c/Kleinstein_%28Flammenmeer_45%29.png/400px-Kleinstein_%28Flammenmeer_45%29.png"
+		]
 	},
 	{
 		"id": "146",
@@ -122,12 +258,29 @@
 		"size": "2,0 m",
 		"color": "Gelb",
 		"cry": "https://www.pokewiki.de/images/4/4d/Ruf_146.mp3",
-		"image": "https://www.pokewiki.de/images/thumb/d/df/Sugimori_146a.png/250px-Sugimori_146a.png",
+		"image": "https://www.pokewiki.de/images/thumb/5/54/Sugimori_146.png/250px-Sugimori_146.png",
 		"types": [
 			"Feuer",
 			"Flug"
 		],
-		"pokedexEntry": "Dieses POKéMON ist der legendäre Feuervogel. Sein Flügelschlag entfacht ein helles Feuermeer."
+		"pokedexEntry": "Dieses POKéMON ist der legendäre Feuervogel. Sein Flügelschlag entfacht ein helles Feuermeer.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/9/9d/Lavados_%28Fossil_12%29.jpg/400px-Lavados_%28Fossil_12%29.jpg",
+			"https://www.pokewiki.de/images/8/8c/Lavados_%28Kakuch%C5%8D_Sheet_2%29.jpg",
+			"https://www.pokewiki.de/images/5/50/Lavados_%28Trading_Card_Game_1_P02%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/34/Articuno%2C_Moltres%2C_and_Zapdos_%28Promokarte%29.jpg/400px-Articuno%2C_Moltres%2C_and_Zapdos_%28Promokarte%29.jpg",
+			"https://www.pokewiki.de/images/thumb/2/2d/Lavados_%28Wizards_Black_Star_Promos_21%29.jpg/400px-Lavados_%28Wizards_Black_Star_Promos_21%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/e5/Pyros_Lavados_%28Gym_Heroes_1%29.jpg/400px-Pyros_Lavados_%28Gym_Heroes_1%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/0c/Rockets_Lavados_%28Gym_Heroes_12%29.jpg/400px-Rockets_Lavados_%28Gym_Heroes_12%29.jpg",
+			"https://www.pokewiki.de/images/b/b4/Lavados_%28T_Promotional_cards_013%29.jpg",
+			"https://www.pokewiki.de/images/2/2d/Lavados_%28Skyridge_21%29.jpg",
+			"https://www.pokewiki.de/images/thumb/4/40/Lavados_ex_%28EX_Feuerrot_%26_Blattgr%C3%BCn_115%29.jpg/400px-Lavados_ex_%28EX_Feuerrot_%26_Blattgr%C3%BCn_115%29.jpg",
+			"https://www.pokewiki.de/images/thumb/2/23/Rockets_Lavados_ex_%28EX_Team_Rocket_Returns_100%29.jpg/400px-Rockets_Lavados_ex_%28EX_Team_Rocket_Returns_100%29.jpg",
+			"https://www.pokewiki.de/images/thumb/5/5a/Lavados_ex_%28Nintendo_Black_Star_Promos_031%29.jpg/400px-Lavados_ex_%28Nintendo_Black_Star_Promos_031%29.jpg",
+			"https://www.pokewiki.de/images/thumb/a/a3/Lavados_%28Majest%C3%A4tischer_Morgen_10%29.jpg/400px-Lavados_%28Majest%C3%A4tischer_Morgen_10%29.jpg",
+			"https://www.pokewiki.de/images/c/cf/Lavados_%28Ultimative_Sieger_36%29.jpg",
+			"https://www.pokewiki.de/images/thumb/6/62/Lavados_%28Kommende_Schicksale_14%29.png/400px-Lavados_%28Kommende_Schicksale_14%29.png"
+		]
 	},
 	{
 		"id": "126",
@@ -141,7 +294,24 @@
 		"types": [
 			"Feuer"
 		],
-		"pokedexEntry": "Dieses POKéMON kann sich dank seines orangefarbenen Körpers perfekt im Feuer verstecken."
+		"pokedexEntry": "Dieses POKéMON kann sich dank seines orangefarbenen Körpers perfekt im Feuer verstecken.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/b/bc/Magmar_%28Grundset_36%29.jpg/400px-Magmar_%28Grundset_36%29.jpg",
+			"https://www.pokewiki.de/images/thumb/5/51/Magmar_%28Fossil_39%29.jpg/400px-Magmar_%28Fossil_39%29.jpg",
+			"https://www.pokewiki.de/images/thumb/5/53/Pyros_Magmar_%28Gym_Heroes_37%29.jpg/400px-Pyros_Magmar_%28Gym_Heroes_37%29.jpg",
+			"https://www.pokewiki.de/images/a/ab/Magmar_%28Zenigame_Deck_39%29.jpg",
+			"https://www.pokewiki.de/images/thumb/7/7e/Magmar_%28Neo_Genesis_40%29.jpg/400px-Magmar_%28Neo_Genesis_40%29.jpg",
+			"https://www.pokewiki.de/images/thumb/4/46/Magmar_%28Wizards_Black_Star_Promos_44%29.jpg/400px-Magmar_%28Wizards_Black_Star_Promos_44%29.jpg",
+			"https://www.pokewiki.de/images/9/98/Melanies_Magmar_%28Pok%C3%A9mon_Card_%E2%98%85_VS_088%29.jpg",
+			"https://www.pokewiki.de/images/thumb/7/7f/Magmar_%28Expedition_86%29.jpg/400px-Magmar_%28Expedition_86%29.jpg",
+			"https://www.pokewiki.de/images/8/8e/Magmar_ex_%28EX_Rubin_%26_Saphir_100%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/e4/Magmar_%28EX_Team_Rocket_Returns_44%29.jpg/400px-Magmar_%28EX_Team_Rocket_Returns_44%29.jpg",
+			"https://www.pokewiki.de/images/thumb/b/be/Magmar_%28EX_Legend_Maker_21%29.jpg/400px-Magmar_%28EX_Legend_Maker_21%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/0c/Magmar_%28Geheimnisvolle_Sch%C3%A4tze_54%29.jpg/400px-Magmar_%28Geheimnisvolle_Sch%C3%A4tze_54%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/e6/Magmar_%28R%C3%A4tselhafte_Wunder_93%29.jpg/400px-Magmar_%28R%C3%A4tselhafte_Wunder_93%29.jpg",
+			"https://www.pokewiki.de/images/b/b1/Magmar_%28Ultimative_Sieger_65%29.jpg",
+			"https://www.pokewiki.de/images/thumb/8/87/Magmar_%28Entfesselt_52%29.png/400px-Magmar_%28Entfesselt_52%29.png"
+		]
 	},
 	{
 		"id": "151",
@@ -155,7 +325,24 @@
 		"types": [
 			"Psycho"
 		],
-		"pokedexEntry": "Viele Experten bezweifeln die Existenz dieses POKéMON. Nur wenige Personen haben es gesehen."
+		"pokedexEntry": "Viele Experten bezweifeln die Existenz dieses POKéMON. Nur wenige Personen haben es gesehen.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/7/7c/Mew_%28Wizards_Black_Star_Promos_9%29.jpg/400px-Mew_%28Wizards_Black_Star_Promos_9%29.jpg",
+			"https://www.pokewiki.de/images/d/d3/Mew_%28WHF_Special_Sheet_promo%29.jpg",
+			"https://www.pokewiki.de/images/3/37/Mew_%28Trading_Card_Game_1_PXX%29.jpg",
+			"https://www.pokewiki.de/images/4/48/Mew_%282._Film_Promo%29.jpg",
+			"https://www.pokewiki.de/images/thumb/4/4f/Mew_%28Southern_Islands_1%29.jpg/400px-Mew_%28Southern_Islands_1%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/1a/Schimmerndes_Mew_%28CoroCoro_Promo%29.jpg/400px-Schimmerndes_Mew_%28CoroCoro_Promo%29.jpg",
+			"https://www.pokewiki.de/images/thumb/7/71/Mew_%28Wizards_Black_Star_Promos_47%29.jpg/400px-Mew_%28Wizards_Black_Star_Promos_47%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/3a/Mew_%28Expedition_19%29.jpg/400px-Mew_%28Expedition_19%29.jpg",
+			"https://www.pokewiki.de/images/4/4a/Mew_ex_%28Pok%C3%A9mon_Card_Game_Players_007%29.jpg",
+			"https://www.pokewiki.de/images/8/8d/S_Mew_%28Pok%C3%A9mon_Card_Game_Players_013%29.jpg",
+			"https://www.pokewiki.de/images/0/06/Mew_%28EX_Legend_Maker_10%29.jpg",
+			"https://www.pokewiki.de/images/thumb/7/76/Mew_ex_%28EX_Legend_Maker_88%29.jpg/400px-Mew_ex_%28EX_Legend_Maker_88%29.jpg",
+			"https://www.pokewiki.de/images/d/de/R%C5%8Dta_no_Mew_%28Eiga_K%C5%8Dkai_Kinen_VS_Pack_Had%C5%8D_no_Lucario_002%29.jpg",
+			"https://www.pokewiki.de/images/thumb/8/82/Mew_ex_%28EX_Holon_Phantoms_100%29.jpg/400px-Mew_ex_%28EX_Holon_Phantoms_100%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/1b/Mew_%28POP_Serie_4_4%29.jpg/400px-Mew_%28POP_Serie_4_4%29.jpg"
+		]
 	},
 	{
 		"id": "150",
@@ -169,7 +356,24 @@
 		"types": [
 			"Psycho"
 		],
-		"pokedexEntry": "Dieses POKéMON ist das Resultat eines jahrelangen und skrupellosen Experimentes."
+		"pokedexEntry": "Dieses POKéMON ist das Resultat eines jahrelangen und skrupellosen Experimentes.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/9/9f/Mewtu_%28Grundset_10%29.png/400px-Mewtu_%28Grundset_10%29.png",
+			"https://www.pokewiki.de/images/thumb/8/8c/Mewtu_%28Wizards_Black_Star_Promos_3%29.jpg/400px-Mewtu_%28Wizards_Black_Star_Promos_3%29.jpg",
+			"https://www.pokewiki.de/images/thumb/7/78/Mewtu_%28Wizards_Black_Star_Promos_12%29.jpg/400px-Mewtu_%28Wizards_Black_Star_Promos_12%29.jpg",
+			"https://www.pokewiki.de/images/8/89/Mewtu_%28Kakuch%C5%8D_Sheet_1%29.jpg",
+			"https://www.pokewiki.de/images/9/91/Mewtwo_no_Gyakush%C5%AB_%28CoroCoro_Promo%29.jpg",
+			"https://www.pokewiki.de/images/a/a4/Mewtu_%28Kakuch%C5%8D_Sheet_3%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/0c/Rockets_Mewtu_%28Gym_Challenge_14%29.jpg/400px-Rockets_Mewtu_%28Gym_Challenge_14%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/36/GR-dan_no_Mewtwo_%28GB2_Promo%29.jpg/400px-GR-dan_no_Mewtwo_%28GB2_Promo%29.jpg",
+			"https://www.pokewiki.de/images/thumb/7/73/Schimmerndes_Mewtu_%28Neo_Destiny_109%29.jpg/400px-Schimmerndes_Mewtu_%28Neo_Destiny_109%29.jpg",
+			"https://www.pokewiki.de/images/thumb/8/8a/Mewtu_%28Expedition_20%29.jpg/400px-Mewtu_%28Expedition_20%29.jpg",
+			"https://www.pokewiki.de/images/3/32/Mewtu_%28P_Promotional_cards_046%29.jpg",
+			"https://www.pokewiki.de/images/2/2a/Mewtu_ex_%28EX_Rubin_%26_Saphir_101%29.jpg",
+			"https://www.pokewiki.de/images/thumb/8/87/Rockets_Mewtu_ex_%28EX_Team_Rocket_Returns_99%29.jpg/400px-Rockets_Mewtu_ex_%28EX_Team_Rocket_Returns_99%29.jpg",
+			"https://www.pokewiki.de/images/0/05/Mewtu_%CE%B4_%28EX_Delta_Species_12%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/3d/Mewtu_%CE%B4_%28EX_Holon_Phantoms_24%29.jpg/400px-Mewtu_%CE%B4_%28EX_Holon_Phantoms_24%29.jpg"
+		]
 	},
 	{
 		"id": "122",
@@ -179,12 +383,29 @@
 		"size": "1,3 m",
 		"color": "Rosa",
 		"cry": "https://www.pokewiki.de/images/d/d0/Ruf_122.mp3",
-		"image": "https://www.pokewiki.de/images/thumb/1/1a/Sugimori_122a.png/234px-Sugimori_122a.png",
+		"image": "https://www.pokewiki.de/images/thumb/0/0e/Sugimori_122.png/250px-Sugimori_122.png",
 		"types": [
 			"Psycho",
 			"Fee"
 		],
-		"pokedexEntry": "Stört man dieses POKéMON beim Mienenspiel, so schlägt es mit seinen großen Händen um sich."
+		"pokedexEntry": "Stört man dieses POKéMON beim Mienenspiel, so schlägt es mit seinen großen Händen um sich.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/8/8f/Pantimos_%28Dschungel_6%29.jpg/400px-Pantimos_%28Dschungel_6%29.jpg",
+			"https://www.pokewiki.de/images/9/9d/Pantimos_%28Kakuch%C5%8D_Sheet_1%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/17/Sabrinas_Pantimos_%28Gym_Heroes_94%29.jpg/400px-Sabrinas_Pantimos_%28Gym_Heroes_94%29.jpg",
+			"https://www.pokewiki.de/images/b/b6/Sabrinas_Pantimos_%28Gym_Challenge_59%29.jpg",
+			"https://www.pokewiki.de/images/thumb/4/44/Pantimos_%28Aquapolis_95%29.jpg/400px-Pantimos_%28Aquapolis_95%29.jpg",
+			"https://www.pokewiki.de/images/a/ac/Pantimos_ex_%28EX_Feuerrot_%26_Blattgr%C3%BCn_110%29.jpg",
+			"https://www.pokewiki.de/images/9/9f/Pantimos_ex_%28EX_Feuerrot_%26_Blattgr%C3%BCn_111%29.jpg",
+			"https://www.pokewiki.de/images/thumb/6/6b/Pantimos_%28Geheimnisvolle_Sch%C3%A4tze_30%29.jpg/400px-Pantimos_%28Geheimnisvolle_Sch%C3%A4tze_30%29.jpg",
+			"https://www.pokewiki.de/images/thumb/f/f2/Pantimos_4_%28Aufstieg_der_Rivalen_28%29.jpg/400px-Pantimos_4_%28Aufstieg_der_Rivalen_28%29.jpg",
+			"https://www.pokewiki.de/images/6/61/Pantimos_%28Ultimative_Sieger_37%29.jpg",
+			"https://www.pokewiki.de/images/thumb/f/fc/Pantimos_%28Ruf_der_Legenden_29%29.png/400px-Pantimos_%28Ruf_der_Legenden_29%29.png",
+			"https://www.pokewiki.de/images/thumb/2/2a/Pantimos_%28Plasma-Frost_47%29.png/400px-Pantimos_%28Plasma-Frost_47%29.png",
+			"https://www.pokewiki.de/images/thumb/c/c8/Pantimos_%28XY_91%29.png/400px-Pantimos_%28XY_91%29.png",
+			"https://www.pokewiki.de/images/thumb/8/8c/Pantimos_%28Protoschock_101%29.png/400px-Pantimos_%28Protoschock_101%29.png",
+			"https://www.pokewiki.de/images/thumb/3/35/Pantimos_%28TURBOstart_97%29.png/400px-Pantimos_%28TURBOstart_97%29.png"
+		]
 	},
 	{
 		"id": "025",
@@ -198,7 +419,24 @@
 		"types": [
 			"Elektro"
 		],
-		"pokedexEntry": "Wenn sich mehrere dieser POKéMON versammeln, kann ihre Energie Blitzgewitter erzeugen."
+		"pokedexEntry": "Wenn sich mehrere dieser POKéMON versammeln, kann ihre Energie Blitzgewitter erzeugen.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/8/83/Pikachu_%28Grundset_58%29.jpg/400px-Pikachu_%28Grundset_58%29.jpg",
+			"https://www.pokewiki.de/images/thumb/6/64/Pikachu_%28Dschungel_60%29.jpg/400px-Pikachu_%28Dschungel_60%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/09/Pikachu_%28Wizards_Black_Star_Promos_1%29.jpg/400px-Pikachu_%28Wizards_Black_Star_Promos_1%29.jpg",
+			"https://www.pokewiki.de/images/0/05/Pikachu_to_Purin_to_Pippi_%28CoroCoro_Promo%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/1c/Pikachu_%28Wizards_Black_Star_Promos_4%29.jpg/400px-Pikachu_%28Wizards_Black_Star_Promos_4%29.jpg",
+			"https://www.pokewiki.de/images/5/52/Pikachu_no_Natsuyasumi_%28CoroCoro_Promo%29.jpg",
+			"https://www.pokewiki.de/images/thumb/b/b8/Major_Bobs_Pikachu_%28Gym_Heroes_81%29.jpg/400px-Major_Bobs_Pikachu_%28Gym_Heroes_81%29.jpg",
+			"https://www.pokewiki.de/images/thumb/2/2d/S_Pikachu_%28Wizards_Black_Star_Promos_24%29.jpg/400px-S_Pikachu_%28Wizards_Black_Star_Promos_24%29.jpg",
+			"https://www.pokewiki.de/images/thumb/9/97/Major_Bobs_Pikachu_%28Gym_Challenge_84%29.jpg/400px-Major_Bobs_Pikachu_%28Gym_Challenge_84%29.jpg",
+			"https://www.pokewiki.de/images/9/94/Ooyamas_Pikachu_%28Kakuch%C5%8D_Sheet_3%29.jpg",
+			"https://www.pokewiki.de/images/2/20/Fliegendes_Pikachu_%28ANA_1999%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/ef/Pikachu_%28Neo_Genesis_70%29.jpg/400px-Pikachu_%28Neo_Genesis_70%29.jpg",
+			"https://www.pokewiki.de/images/thumb/d/dd/Fliegendes_Pikachu_%28Aufstieg_der_Rivalen_113%29.jpg/400px-Fliegendes_Pikachu_%28Aufstieg_der_Rivalen_113%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/14/Pikachu_%28Wizards_Black_Star_Promos_26%29.jpg/400px-Pikachu_%28Wizards_Black_Star_Promos_26%29.jpg",
+			"https://www.pokewiki.de/images/thumb/8/83/Pikachu_%28Wizards_Black_Star_Promos_27%29.jpg/400px-Pikachu_%28Wizards_Black_Star_Promos_27%29.jpg"
+		]
 	},
 	{
 		"id": "127",
@@ -208,11 +446,28 @@
 		"size": "1,5 m",
 		"color": "Braun",
 		"cry": "https://www.pokewiki.de/images/0/0f/Ruf_127.mp3",
-		"image": "https://www.pokewiki.de/images/thumb/5/55/Sugimori_127m1.png/250px-Sugimori_127m1.png",
+		"image": "https://www.pokewiki.de/images/thumb/4/49/Sugimori_127.png/240px-Sugimori_127.png",
 		"types": [
 			"Käfer"
 		],
-		"pokedexEntry": "Dieses POKéMON vermag mit seinen mächtigen Kneifzangen Gegner zu zermalmen."
+		"pokedexEntry": "Dieses POKéMON vermag mit seinen mächtigen Kneifzangen Gegner zu zermalmen.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/d/dc/Pinsir_%28Dschungel_9%29.jpg/400px-Pinsir_%28Dschungel_9%29.jpg",
+			"https://www.pokewiki.de/images/3/30/Pinsir_%28Kakuch%C5%8D_Sheet_1%29.jpg",
+			"https://www.pokewiki.de/images/5/5d/Giovannis_Pinsir_%28Gym_Challenge_24%29.jpg",
+			"https://www.pokewiki.de/images/9/9c/Kais_Pinsir_%28Pok%C3%A9mon_Card_%E2%98%85_VS_010%29.jpg",
+			"https://www.pokewiki.de/images/thumb/b/bb/Pinsir_%28Aquapolis_101%29.jpg/400px-Pinsir_%28Aquapolis_101%29.jpg",
+			"https://www.pokewiki.de/images/thumb/5/5d/Pinsir_%28EX_Hidden_Legends_13%29.jpg/400px-Pinsir_%28EX_Hidden_Legends_13%29.jpg",
+			"https://www.pokewiki.de/images/thumb/f/f6/Pinsir_%28EX_Legend_Maker_24%29.jpg/400px-Pinsir_%28EX_Legend_Maker_24%29.jpg",
+			"https://www.pokewiki.de/images/5/54/Pinsir_%CE%B4_%28EX_Dragon_Frontiers_9%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/1c/Pinsir_%28R%C3%A4tselhafte_Wunder_59%29.jpg/400px-Pinsir_%28R%C3%A4tselhafte_Wunder_59%29.jpg",
+			"https://www.pokewiki.de/images/8/87/Pinsir_%28Ultimative_Sieger_75%29.jpg",
+			"https://www.pokewiki.de/images/thumb/a/ac/Pinsir_%28Unerschrocken_32%29.png/400px-Pinsir_%28Unerschrocken_32%29.png",
+			"https://www.pokewiki.de/images/thumb/9/97/Pinsir_%28Kommende_Schicksale_1%29.png/400px-Pinsir_%28Kommende_Schicksale_1%29.png",
+			"https://www.pokewiki.de/images/thumb/a/a8/Pinsir_%28TURBOstart_3%29.png/400px-Pinsir_%28TURBOstart_3%29.png",
+			"https://www.pokewiki.de/images/thumb/0/0d/Pinsir_%28Sonne_%26_Mond_6%29.png/400px-Pinsir_%28Sonne_%26_Mond_6%29.png",
+			"https://www.pokewiki.de/images/thumb/b/b8/Pinsir_%28Echo_des_Donners_4%29.png/400px-Pinsir_%28Echo_des_Donners_4%29.png"
+		]
 	},
 	{
 		"id": "026",
@@ -222,11 +477,28 @@
 		"size": "0,8 m",
 		"color": "Gelb",
 		"cry": "https://www.pokewiki.de/images/2/24/Ruf_026.mp3",
-		"image": "https://www.pokewiki.de/images/thumb/a/ac/Sugimori_026a.png/224px-Sugimori_026a.png",
+		"image": "https://www.pokewiki.de/images/thumb/b/bc/Sugimori_026.png/250px-Sugimori_026.png",
 		"types": [
 			"Elektro"
 		],
-		"pokedexEntry": "Der lange Schweif dieses POKéMON dient als Erdung zum Schutz vor der körpereigenen Hochspannung."
+		"pokedexEntry": "Der lange Schweif dieses POKéMON dient als Erdung zum Schutz vor der körpereigenen Hochspannung.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/2/23/Raichu_%28Grundset_14%29.jpg/400px-Raichu_%28Grundset_14%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/1b/Raichu_%28Fossil_14%29.jpg/400px-Raichu_%28Fossil_14%29.jpg",
+			"https://www.pokewiki.de/images/thumb/d/db/Dunkles_Raichu_%28Team_Rocket_83%29.jpg/400px-Dunkles_Raichu_%28Team_Rocket_83%29.jpg",
+			"https://www.pokewiki.de/images/6/65/Raichu_%28Kakuch%C5%8D_Sheet_2%29.jpg",
+			"https://www.pokewiki.de/images/thumb/8/8d/Major_Bobs_Raichu_%28Gym_Heroes_28%29.jpg/400px-Major_Bobs_Raichu_%28Gym_Heroes_28%29.jpg",
+			"https://www.pokewiki.de/images/6/6d/Major_Bobs_Raichu_%28Gym_Challenge_11%29.jpg",
+			"https://www.pokewiki.de/images/c/c2/Raichu_%28Fushigidane_Deck_3%29.jpg",
+			"https://www.pokewiki.de/images/d/de/Raichu_%28Neo_Revelation_21%29.jpg",
+			"https://www.pokewiki.de/images/c/c5/Schimmerndes_Raichu_%28Neo_Destiny_111%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/36/Jasmins_Raichu_%28Pok%C3%A9mon_Card_%E2%98%85_VS_027%29.jpg/400px-Jasmins_Raichu_%28Pok%C3%A9mon_Card_%E2%98%85_VS_027%29.jpg",
+			"https://www.pokewiki.de/images/9/95/Major_Bobs_Raichu_%28Pok%C3%A9mon_Card_%E2%98%85_VS_053%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/35/Raichu_%28Expedition_25%29.jpg/400px-Raichu_%28Expedition_25%29.jpg",
+			"https://www.pokewiki.de/images/1/1e/Raichu_%28Skyridge_H25%29.jpg",
+			"https://www.pokewiki.de/images/6/6c/Raichu_ex_%28EX_Sandsturm_98%29.jpg",
+			"https://www.pokewiki.de/images/thumb/c/ce/Raichu_%28EX_Team_Magma_vs_Team_Aqua_13%29.jpg/400px-Raichu_%28EX_Team_Magma_vs_Team_Aqua_13%29.jpg"
+		]
 	},
 	{
 		"id": "143",
@@ -236,11 +508,28 @@
 		"size": "2,1 m",
 		"color": "Schwarz",
 		"cry": "https://www.pokewiki.de/images/a/a0/Ruf_143.mp3",
-		"image": "https://www.pokewiki.de/images/thumb/8/84/Sugimori_143g1.png/250px-Sugimori_143g1.png",
+		"image": "https://www.pokewiki.de/images/thumb/9/9f/Sugimori_143.png/250px-Sugimori_143.png",
 		"types": [
 			"Normal"
 		],
-		"pokedexEntry": "Ein sehr faules POKéMON, welches nur schläft und frißt. Je größer es wird, desto mehr schläft es."
+		"pokedexEntry": "Ein sehr faules POKéMON, welches nur schläft und frißt. Je größer es wird, desto mehr schläft es.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/6/61/Relaxo_%28Dschungel_11%29.jpg/400px-Relaxo_%28Dschungel_11%29.jpg",
+			"https://www.pokewiki.de/images/e/e7/Kuishin_B%C5%8D_Kabigon_%28N64_Promo%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/1e/Rockets_Relaxo_%28Gym_Heroes_33%29.jpg/400px-Rockets_Relaxo_%28Gym_Heroes_33%29.jpg",
+			"https://www.pokewiki.de/images/thumb/6/6c/Relaxo_%28Wizards_Black_Star_Promos_49%29.jpg/400px-Relaxo_%28Wizards_Black_Star_Promos_49%29.jpg",
+			"https://www.pokewiki.de/images/6/63/Relaxo_%28Skyridge_100%29.jpg",
+			"https://www.pokewiki.de/images/8/8d/Relaxo_%28EX_Feuerrot_%26_Blattgr%C3%BCn_15%29.jpg",
+			"https://www.pokewiki.de/images/thumb/f/f8/Rockets_Relaxo_ex_%28EX_Team_Rocket_Returns_104%29.jpg/400px-Rockets_Relaxo_ex_%28EX_Team_Rocket_Returns_104%29.jpg",
+			"https://www.pokewiki.de/images/c/c1/Relaxo_%CE%B4_%28EX_Dragon_Frontiers_10%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/eb/Relaxo_%28Diamant_%26_Perl_37%29.jpg/400px-Relaxo_%28Diamant_%26_Perl_37%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/06/Relaxo_%28Aufstieg_der_Rivalen_33%29.jpg/400px-Relaxo_%28Aufstieg_der_Rivalen_33%29.jpg",
+			"https://www.pokewiki.de/images/thumb/b/bc/Relaxo_%28Aufstieg_der_Rivalen_81%29.jpg/400px-Relaxo_%28Aufstieg_der_Rivalen_81%29.jpg",
+			"https://www.pokewiki.de/images/1/13/Relaxo_%28Aufstieg_der_Rivalen_111%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/1d/Relaxo_%28Ruf_der_Legenden_33%29.png/400px-Relaxo_%28Ruf_der_Legenden_33%29.png",
+			"https://www.pokewiki.de/images/thumb/2/26/Relaxo_%28%C3%9Cberschrittene_Schwellen_109%29.png/400px-Relaxo_%28%C3%9Cberschrittene_Schwellen_109%29.png",
+			"https://www.pokewiki.de/images/thumb/f/fa/Relaxo_%28Plasma-Sturm_101%29.png/400px-Relaxo_%28Plasma-Sturm_101%29.png"
+		]
 	},
 	{
 		"id": "124",
@@ -255,7 +544,24 @@
 			"Eis",
 			"Psycho"
 		],
-		"pokedexEntry": "Der beschwingte Gang dieses POKéMON bezaubert Zuschauer und läßt sie im Takt dazu tanzen."
+		"pokedexEntry": "Der beschwingte Gang dieses POKéMON bezaubert Zuschauer und läßt sie im Takt dazu tanzen.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/d/da/Rossana_%28Grundset_31%29.jpg/400px-Rossana_%28Grundset_31%29.jpg",
+			"https://www.pokewiki.de/images/0/0e/Rossana_%28CoroCoro_promo%29.jpg",
+			"https://www.pokewiki.de/images/6/6f/Rossana_%28Kakuch%C5%8D_Sheet_2%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/e4/Sabrinas_Rossana_%28Gym_Heroes_59%29.jpg/400px-Sabrinas_Rossana_%28Gym_Heroes_59%29.jpg",
+			"https://www.pokewiki.de/images/a/a5/Sabrinas_Rossana_%28Gym_Challenge_57%29.jpg",
+			"https://www.pokewiki.de/images/f/f7/Rossana_%28Fushigidane_Deck_37%29.jpg",
+			"https://www.pokewiki.de/images/8/8a/Rossana_%28Neo_Revelation_31%29.jpg",
+			"https://www.pokewiki.de/images/a/aa/Sandras_Rossana_%28Pok%C3%A9mon_Card_%E2%98%85_VS_047%29.jpg",
+			"https://www.pokewiki.de/images/f/fe/Willis_Rossana_%28Pok%C3%A9mon_Card_%E2%98%85_VS_074%29.jpg",
+			"https://www.pokewiki.de/images/thumb/a/a3/Rossana_%28Expedition_83%29.jpg/400px-Rossana_%28Expedition_83%29.jpg",
+			"https://www.pokewiki.de/images/a/a6/Rossana_%28Aquapolis_18%29.jpg",
+			"https://www.pokewiki.de/images/6/6e/Rossana_%28EX_Verborgene_M%C3%A4chte_28%29.jpg",
+			"https://www.pokewiki.de/images/d/db/Rossana_%CE%B4_%28EX_Dragon_Frontiers_17%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/1a/Rossana_%28R%C3%A4tselhafte_Wunder_30%29.jpg/400px-Rossana_%28R%C3%A4tselhafte_Wunder_30%29.jpg",
+			"https://www.pokewiki.de/images/thumb/5/57/Rossana_%28HeartGold_%26_SoulSilver_69%29.png/400px-Rossana_%28HeartGold_%26_SoulSilver_69%29.png"
+		]
 	},
 	{
 		"id": "123",
@@ -270,7 +576,24 @@
 			"Käfer",
 			"Flug"
 		],
-		"pokedexEntry": "Dieses POKéMON ist schnell und wendig wie ein Ninja. Man glaubt, mehrere Gegner zu sehen."
+		"pokedexEntry": "Dieses POKéMON ist schnell und wendig wie ein Ninja. Man glaubt, mehrere Gegner zu sehen.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/0/06/Sichlor_%28Dschungel_10%29.jpg/400px-Sichlor_%28Dschungel_10%29.jpg",
+			"https://www.pokewiki.de/images/thumb/2/21/Rockets_Sichlor_%28Gym_Heroes_13%29.jpg/400px-Rockets_Sichlor_%28Gym_Heroes_13%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/14/Sichlor_%28Neo_Entdeckung_46%29.jpg/400px-Sichlor_%28Neo_Entdeckung_46%29.jpg",
+			"https://www.pokewiki.de/images/9/9d/Sichlor_%28Neo_Destiny_55%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/0a/Sichlor_%28Wizards_Black_Star_Promos_45%29.jpg/400px-Sichlor_%28Wizards_Black_Star_Promos_45%29.jpg",
+			"https://www.pokewiki.de/images/f/f1/Sichlor_%28Aquapolis_57%29.jpg",
+			"https://www.pokewiki.de/images/1/14/Sichlor_%28Aquapolis_106%29.jpg",
+			"https://www.pokewiki.de/images/thumb/7/73/Sichlor_ex_%28EX_Rubin_%26_Saphir_102%29.jpg/400px-Sichlor_ex_%28EX_Rubin_%26_Saphir_102%29.jpg",
+			"https://www.pokewiki.de/images/e/eb/Sichlor_%28EX_Feuerrot_%26_Blattgr%C3%BCn_29%29.jpg",
+			"https://www.pokewiki.de/images/thumb/6/6d/Rockets_Sichlor_ex_%28EX_Team_Rocket_Returns_102%29.jpg/400px-Rockets_Sichlor_ex_%28EX_Team_Rocket_Returns_102%29.jpg",
+			"https://www.pokewiki.de/images/1/12/Sichlor_%28EX_Verborgene_M%C3%A4chte_46%29.jpg",
+			"https://www.pokewiki.de/images/thumb/5/55/Sichlor_%28Majest%C3%A4tischer_Morgen_46%29.jpg/400px-Sichlor_%28Majest%C3%A4tischer_Morgen_46%29.jpg",
+			"https://www.pokewiki.de/images/3/38/Sichlor_%28Sturmtief_49%29.jpg",
+			"https://www.pokewiki.de/images/thumb/6/6e/Sichlor_%28Unerschrocken_36%29.png/400px-Sichlor_%28Unerschrocken_36%29.png",
+			"https://www.pokewiki.de/images/thumb/9/9e/Sichlor_%28Unerschrocken_65%29.png/400px-Sichlor_%28Unerschrocken_65%29.png"
+		]
 	},
 	{
 		"id": "128",
@@ -284,7 +607,24 @@
 		"types": [
 			"Normal"
 		],
-		"pokedexEntry": "Sieht TAUROS einen Gegner, so stürmt er wutschnaubend los und benutzt seine Schweife als Peitschen."
+		"pokedexEntry": "Sieht TAUROS einen Gegner, so stürmt er wutschnaubend los und benutzt seine Schweife als Peitschen.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/1/1d/Tauros_%28Dschungel_47%29.jpg/400px-Tauros_%28Dschungel_47%29.jpg",
+			"https://www.pokewiki.de/images/6/68/Tauros_%28Kakuch%C5%8D_Sheet_3%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/18/Pyros_Tauros_%28Gym_Heroes_64%29.jpg/400px-Pyros_Tauros_%28Gym_Heroes_64%29.jpg",
+			"https://www.pokewiki.de/images/e/eb/Hartwigs_Tauros_%28Pok%C3%A9mon_Card_%E2%98%85_VS_036%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/ee/Tauros_%28Expedition_133%29.jpg/400px-Tauros_%28Expedition_133%29.jpg",
+			"https://www.pokewiki.de/images/5/5f/Tauros_%28EX_Feuerrot_%26_Blattgr%C3%BCn_16%29.jpg",
+			"https://www.pokewiki.de/images/thumb/a/af/Tauros_%28POP_Serie_2_5%29.jpg/400px-Tauros_%28POP_Serie_2_5%29.jpg",
+			"https://www.pokewiki.de/images/thumb/8/80/Tauros_%28EX_Crystal_Guardians_12%29.jpg/400px-Tauros_%28EX_Crystal_Guardians_12%29.jpg",
+			"https://www.pokewiki.de/images/e/ef/Tauros_%28Erwachte_Legenden_74%29.jpg",
+			"https://www.pokewiki.de/images/thumb/c/c9/Tauros_%28Platin_98%29.jpg/400px-Tauros_%28Platin_98%29.jpg",
+			"https://www.pokewiki.de/images/thumb/9/92/Tauros_%28Entfesselt_41%29.png/400px-Tauros_%28Entfesselt_41%29.png",
+			"https://www.pokewiki.de/images/thumb/b/bd/Tauros_%28XY_100%29.png/400px-Tauros_%28XY_100%29.png",
+			"https://www.pokewiki.de/images/thumb/a/ab/Tauros-GX_%28Sonne_%26_Mond_100%29.png/400px-Tauros-GX_%28Sonne_%26_Mond_100%29.png",
+			"https://www.pokewiki.de/images/thumb/1/13/Tauros_%2830-mai_Deck_Taisen_Set_Satoshi_VS_Rocket-dan_014%29.jpg/400px-Tauros_%2830-mai_Deck_Taisen_Set_Satoshi_VS_Rocket-dan_014%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/32/Tauros_%28Teams_sind_Trumpf_129%29.png/400px-Tauros_%28Teams_sind_Trumpf_129%29.png"
+		]
 	},
 	{
 		"id": "009",
@@ -298,7 +638,24 @@
 		"types": [
 			"Wasser"
 		],
-		"pokedexEntry": "Ein mächtiges und schnelles POKéMON, das auf dem Rücken zwei Hochdruckwasserwerfer trägt."
+		"pokedexEntry": "Ein mächtiges und schnelles POKéMON, das auf dem Rücken zwei Hochdruckwasserwerfer trägt.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/1/1a/Turtok_%28Grundset_2%29.png/400px-Turtok_%28Grundset_2%29.png",
+			"https://www.pokewiki.de/images/thumb/1/1a/Dunkles_Turtok_%28Team_Rocket_3%29.jpg/400px-Dunkles_Turtok_%28Team_Rocket_3%29.jpg",
+			"https://www.pokewiki.de/images/5/5b/Sandras_Turtok_%28Pok%C3%A9mon_Card_%E2%98%85_VS_046%29.jpg",
+			"https://www.pokewiki.de/images/thumb/9/95/Turtok_%28Expedition_4%29.jpg/400px-Turtok_%28Expedition_4%29.jpg",
+			"https://www.pokewiki.de/images/thumb/2/24/Turtok_%28Expedition_36%29.jpg/400px-Turtok_%28Expedition_36%29.jpg",
+			"https://www.pokewiki.de/images/thumb/e/e8/Turtok_ex_%28EX_Feuerrot_%26_Blattgr%C3%BCn_104%29.jpg/400px-Turtok_ex_%28EX_Feuerrot_%26_Blattgr%C3%BCn_104%29.jpg",
+			"https://www.pokewiki.de/images/thumb/1/19/Turtok_%28POP_Serie_3_1%29.jpg/400px-Turtok_%28POP_Serie_3_1%29.jpg",
+			"https://www.pokewiki.de/images/thumb/a/a4/Sids_Turtok_%28Eiga_K%C5%8Dkai_Kinen_VS_Pack_Rekk%C5%AB_no_Deoxys_010%29.jpg/400px-Sids_Turtok_%28Eiga_K%C5%8Dkai_Kinen_VS_Pack_Rekk%C5%AB_no_Deoxys_010%29.jpg",
+			"https://www.pokewiki.de/images/f/f4/Turtok_%28EX_Crystal_Guardians_2%29.jpg",
+			"https://www.pokewiki.de/images/thumb/d/db/Turtok_%28EX_Crystal_Guardians_14%29.jpg/400px-Turtok_%28EX_Crystal_Guardians_14%29.jpg",
+			"https://www.pokewiki.de/images/b/b2/Turtok_%28R%C3%A4tselhafte_Wunder_2%29.jpg",
+			"https://www.pokewiki.de/images/1/18/Turtok_%28Platin_2%29.jpg",
+			"https://www.pokewiki.de/images/thumb/4/41/Turtok_%28Entfesselt_13%29.png/400px-Turtok_%28Entfesselt_13%29.png",
+			"https://www.pokewiki.de/images/thumb/6/6b/Turtok_%28%C3%9Cberschrittene_Schwellen_31%29.png/400px-Turtok_%28%C3%9Cberschrittene_Schwellen_31%29.png",
+			"https://www.pokewiki.de/images/thumb/5/57/Turtok-EX_%28XY_29%29.png/400px-Turtok-EX_%28XY_29%29.png"
+		]
 	},
 	{
 		"id": "145",
@@ -308,11 +665,28 @@
 		"size": "1,6 m",
 		"color": "Gelb",
 		"cry": "https://www.pokewiki.de/images/0/0c/Ruf_145.mp3",
-		"image": "https://www.pokewiki.de/images/thumb/f/fa/Sugimori_145a.png/250px-Sugimori_145a.png",
+		"image": "https://www.pokewiki.de/images/thumb/1/11/Sugimori_145.png/250px-Sugimori_145.png",
 		"types": [
 			"Elektro",
 			"Flug"
 		],
-		"pokedexEntry": "Ein legendäres VOGEL-POKéMON, das im Sturzflug aus den Wolken bricht und Blitze schleudert."
+		"pokedexEntry": "Ein legendäres VOGEL-POKéMON, das im Sturzflug aus den Wolken bricht und Blitze schleudert.",
+		"cardImages": [
+			"https://www.pokewiki.de/images/thumb/0/06/Zapdos_%28Grundset_16%29.jpg/400px-Zapdos_%28Grundset_16%29.jpg",
+			"https://www.pokewiki.de/images/thumb/0/09/Zapdos_%28Fossil_15%29.jpg/400px-Zapdos_%28Fossil_15%29.jpg",
+			"https://www.pokewiki.de/images/3/36/Zapdos_%28Kakuch%C5%8D_Sheet_2%29.jpg",
+			"https://www.pokewiki.de/images/c/c8/Zapdos_%28Trading_Card_Game_1_P10%29.jpg",
+			"https://www.pokewiki.de/images/thumb/3/34/Articuno%2C_Moltres%2C_and_Zapdos_%28Promokarte%29.jpg/400px-Articuno%2C_Moltres%2C_and_Zapdos_%28Promokarte%29.jpg",
+			"https://www.pokewiki.de/images/thumb/f/fb/Zapdos_%28Wizards_Black_Star_Promos_23%29.jpg/400px-Zapdos_%28Wizards_Black_Star_Promos_23%29.jpg",
+			"https://www.pokewiki.de/images/c/c6/Rockets_Zapdos_%28Gym_Challenge_15%29.jpg",
+			"https://www.pokewiki.de/images/4/46/Zapdos_%28Aquapolis_H32%29.jpg",
+			"https://www.pokewiki.de/images/e/e4/Zapdos_%28T_Promotional_cards_015%29.jpg",
+			"https://www.pokewiki.de/images/thumb/5/54/Zapdos_ex_%28EX_Feuerrot_%26_Blattgr%C3%BCn_116%29.jpg/400px-Zapdos_ex_%28EX_Feuerrot_%26_Blattgr%C3%BCn_116%29.jpg",
+			"https://www.pokewiki.de/images/thumb/a/aa/Rockets_Zapdos_ex_%28EX_Team_Rocket_Returns_106%29.jpg/400px-Rockets_Zapdos_ex_%28EX_Team_Rocket_Returns_106%29.jpg",
+			"https://www.pokewiki.de/images/thumb/9/94/Zapdos_ex_%28Nintendo_Black_Star_Promos_033%29.jpg/400px-Zapdos_ex_%28Nintendo_Black_Star_Promos_033%29.jpg",
+			"https://www.pokewiki.de/images/thumb/2/21/Zapdos_%28Majest%C3%A4tischer_Morgen_14%29.jpg/400px-Zapdos_%28Majest%C3%A4tischer_Morgen_14%29.jpg",
+			"https://www.pokewiki.de/images/b/b4/Zapdos_%28Ultimative_Sieger_48%29.jpg",
+			"https://www.pokewiki.de/images/thumb/4/40/Zapdos_G_%28Arceus_12%29.jpg/400px-Zapdos_G_%28Arceus_12%29.jpg"
+		]
 	}
 ]
