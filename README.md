@@ -4,14 +4,14 @@
 
   - [Spielprinzip](#spielprinzip)
   - [Wie man das Spiel lokal startet](#wie-man-das-spiel-lokal-startet)
-  - [Ein Blick hinter die Kulissen: Dokumentation unseres Datenverarbeitungsprozesses](#ein-blick-hinter-die-kulissen-dokumentation-unseres-datenverarbeitungsprozesses)
+  - Ein Blick hinter die Kulissen: Dokumentation unseres Datenverarbeitungsprozesses
     - [Zusammensetzung unseres Datensatzes](#zusammensetzung-unseres-datensatzes)
-    - [Annitation und Preprocessing](#annitation-und-preprocessing)
+    - [Annitation und Preprocessing](#annotation-und-preprocessing)
     - [Training des Modells](#training-des-modells)
 
 ## Spielprinzip
 
-Können Sie erraten, um welches Pokémon es sich handelt? Bei PoCAMon werden Ihnen auf einem virtuellen Pokédex Informationen über ein zufällig ausgewähltes Pokémon angezeigt, anhand denen Spieler das gesuchte Pokémon erraten und eine passende Pokémon-Karte in ihre Webcam halten müssen. Wurde das richtige Pokémon auf dem Webcam-Feed erkannt, geht es weiter mit dem nächsten Pokémon. 
+Können Sie erraten, um welches Pokémon es sich handelt? Bei PoCAMon werden Ihnen auf einem virtuellen Pokédex Informationen über ein zufällig ausgewähltes Pokémon angezeigt, mit denen Spieler das gesuchte Pokémon erraten und eine passende Pokémon-Karte in ihre Webcam halten müssen. Wurde das richtige Pokémon auf dem Webcam-Feed erkannt, geht es weiter mit dem nächsten Pokémon. 
 
 ![](docs/images/sichlor-completed-screenshot.png "Screenshot aus dem Spiel")
 
@@ -36,14 +36,12 @@ Für PoCAMon stehen derzeit keine plattformspezifischen Builds bereit, daher mus
 
 ### Zusammensetzung unseres Datensatzes
 
-Eine Objekterkennung für alle 901 bislang existierenden Pokémon zu trainieren hätte vom Zeit- und Arbeitsaufwand unseren Rahmen gesprengt. Ursprünglich wollten wir alle 151 Pokémon der ersten Generation erkennen können, letztenendes konnten wir erst nach einer Reduktion auf 22 ausgewählte Pokémon der ersten Generation  akzeptable Ergebnisse erzielen. Welche diese Pokémon sind, können Sie in der Datei Server/data.json in diesem Repository nachlesen (aber natürlich erst, *nachdem* Sie das Spiel selbst einmal ausprobiert haben :wink:)
+Eine Objekterkennung für alle 901 bislang existierenden Pokémon zu trainieren hätte vom Zeit- und Arbeitsaufwand unseren Rahmen völlig gesprengt. Aus diesem Grund wollten wir ursprünglich alle 151 Pokémon der ersten Generation in PoCAMon einbauen, letztenendes konnten wir erst nach einer Reduktion auf 22 ausgewählte Pokémon der ersten Generation  akzeptable Ergebnisse erzielen. Welche diese Pokémon sind, können Sie in der Datei Server/data.json in diesem Repository nachlesen (aber natürlich erst, *nachdem* Sie das Spiel selbst einmal ausprobiert haben :wink:)
 
-Zu Beginn des Projekts haben wir einen Scraper für [Pokéwiki](https://www.pokewiki.de) entwickelt, welcher für jedes der 151 Pokémon aus der ersten Generation zusätzlich zu den im Spiel verwendeten Metadaten je 15 Pokémon-Karten automatisiert herunterlädt. 
-
-
+Zu Beginn des Projekts haben wir einen Scraper für [Pokéwiki](https://www.pokewiki.de) entwickelt, welcher für jedes der 151 Pokémon aus der ersten Generation zusätzlich zu den in PoCAMon als Hinweise verwendeten Metadaten je 15 Pokémon-Karten automatisiert herunterlädt. 
 Zusätzlich dazu haben wir uns auch mit dem öffentlich zugänglichen Datensatz [7,000 Labeled Pokemon](https://www.kaggle.com/lantian773030/pokemonclassification) auf Kaggle beschäftigt,welcher zwischen 25 und 50 im Vorfeld zugeschnittenen Bilder zu jedem Pokémon der ersten Generation enthält.
 
-In der aktuell besten Version unseres Modells wurde dieser Datensatz jedoch nicht verwendet, sondern nur die eigens heruntergeladenen und annotierten Pokémon-Karten. Wir verwendeten insgesamt 325 verschiedene Pokémon-Karten, davon 75 zum Validieren und die restlichen 250 Bilder erweiterten wir über Data Augmentation zu 749 Trainingsdaten. Testdaten verwendeten wir keine, weil wir anstatt eine Hyperparameteroptimierung vorzunehmen die Voreinstellungen für Netzgrößen in yolov5 verwendet haben.
+In der aktuell besten Version unseres Modells wurde der Datensatz von Kaggle nicht verwendet, sondern nur die eigens heruntergeladenen und annotierten Pokémon-Karten. Wir verwendeten insgesamt 325 verschiedene Pokémon-Karten, davon 75 zum Validieren und die restlichen 250 Bilder erweiterten wir über Data Augmentation zu 749 Trainingsdaten. Testdaten verwendeten wir keine, weil wir anstatt selbst eine Hyperparameteroptimierung vorzunehmen die Voreinstellungen für Netzgrößen in yolov5 übernommen haben.
 
 ### Annotation und Preprocessing
 
@@ -76,15 +74,12 @@ Ein Blick auf die Vertauschungsmatrix macht deutlich, dass manche Pokémon konse
 
 ### Herausforderungen und Schwierigkeiten
 
-Die größte Herausforderung, mit der wir zu kämpfen hatten, war in unserer Aufgabe verwurzelt, Pokémon-Karten erkennen zu wollen. Die Abbildungen auf diesen Karten unterscheiden sich weitreichend in ihren Kunststilen: Ein Pokémon kann auf einer Karte wie in einem Kinderbuch gezeichnet, auf einer anderen im Stil eines Ölgemäldes gemalt, auf der nächsten in Form eines schnittigen 3D-Modells im Cel Shading Look präsentiert sein und auf wieder der nächsten photorealistisch gerendert auftreten. Bei Mega-Entwicklungen und dergleichen ändert sich auch gerne mal das Design eines Pokémon. Ebenfalls ändert sich von Bild zu Bild die Pose des Pokémon, die Vordergrund- und Hintergrundgestaltung und manchmal sind sogar mehrere gleiche, in seltenen Fällen auch verschiedene Pokémon auf einer Karte abgebildet. Solche extremen Differenzen erschweren das Lernproblem und erhöhen die Anforderungen an unser Modell erheblich. Wir vermuten, dass dies der Hauptgrund dafür ist, dass manche Pokémon-Karten nicht auf Anhieb oder überhaupt nicht von unserem Modell erkannt werden.
+Die größte Herausforderung, mit der wir zu kämpfen hatten, war in unserer Aufgabenstellung verwurzelt, Pokémon-Karten automatisiert zu erkennen. Die Abbildungen auf diesen Karten unterscheiden sich auch innerhalb der Klassen weitreichend: Ein Pokémon kann auf einer Karte wie in einem Kinderbuch gezeichnet, auf einer anderen im Stil eines Ölgemäldes gemalt, auf der nächsten in Form eines schnittigen 3D-Modells im Cel Shading Look präsentiert sein und auf wieder der nächsten photorealistisch gerendert auftreten. Bei Mega-Entwicklungen und dergleichen ändert sich auch gerne mal das Design eines Pokémon. Zusätzlich ändert sich von Bild zu Bild die Pose des Pokémon, die Vordergrund- und Hintergrundgestaltung und manchmal sind sogar mehrere gleiche, in seltenen Fällen auch verschiedene Pokémon auf einer Karte abgebildet. Solche extremen Differenzen erschweren das Lernproblem und erhöhen die Anforderungen an unser Modell erheblich. Wir vermuten, dass dies der Hauptgrund dafür ist, dass manche Pokémon-Karten nicht auf Anhieb oder überhaupt nicht von unserem Modell erkannt werden.
 
-Eine weitere Hürde stellte dar, uns für das Training nur begrenzt Zeit und die Rechenleistung zur Verfügung standen. Unser Team war zwar mit genügend modernen Gaming-PCs mit CUDA-Support ausgestattet, allerdings hätte das Trainieren von ausreichend komplexen Modellen für alle 151 Pokémon der ersten Generation tagelang gedauert. Aus diesem Grund haben wir uns auf eine Auswahl von 22 zu erratenden Pokémon begrenzt, wodurch wir die Trainingszeiten auf ca. eine Stunde pro 100 Epochen senken konnten.
+Dass uns für das Training nur begrenzt Zeit und die Rechenleistung zur Verfügung standen, stellte eine weitere Hürde dar. Unser Team war zwar mit genügend modernen Gaming-PCs mit CUDA-Support ausgestattet, allerdings hätte das Trainieren von ausreichend komplexen Modellen für alle 151 Pokémon der ersten Generation tagelang gedauert. Aus diesem Grund haben wir uns auf eine Auswahl von 22 zu erratenden Pokémon begrenzt, wodurch wir die Trainingszeiten auf ca. eine Stunde pro 100 Epochen senken konnten.
 
 Zeitweise fällt es unserem Modell schwer, ähnlich aussehende Pokémon auseinanderzuhalten. Paradebeispiele wären Pikachu und Raichu, wie in dieser Abbildung eines Validierungsoutputs einer früheren Version unseres Modells zu sehen ist, allerdings sind auch andere Pokémon mit eher ähnlichen Designs betroffen.
 
 ![<Bild, bei welchem Pikachu als Raichu erkannt wird und umgekehrt>](docs/images/pikachu-raichu-vertauscht.jpg "Bild, bei welchem Pikachu als Raichu erkannt wird und umgekehrt")
-
-Mit Roboflow, dem Annitationstool unserer Wahl, wurden nach einiger Zeit leichte Symptome eines Vendor Lock-In spürbar: Man konnte mit dieser App scheinbar keine randomisierte Aufteilung in Trainings- Test- und Validierungsdaten vornehmen, was uns die Validierung unserer nach Pokémon sortierten Datensätze erschwert hat.
-
 
 Das Bisasam Plüschtier eines unserer Mitglieder wurde übrigens leider nicht als Bisasam erkannt.
