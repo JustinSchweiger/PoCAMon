@@ -58,9 +58,21 @@ Für jede dieser Datensatzversionierungen lassen wir uns die dreifache Menge an 
 ### Training des Modells
 
 Zum Training und zur Anwendung unseres Modells haben wir uns für die Python-Bibliothek [yolov5](https://github.com/ultralytics/yolov5) entschieden. 
-Wir starteten mit einem neu initialisierten neuronalen Netz, für dessen dessen Hyperparameter wir die Voreinstellung [yolov5l.yaml](https://github.com/ultralytics/yolov5/blob/master/models/yolov5l.yaml) verwendet haben. Dieses Modell trainierten wir nach und nach weiter, je 100 Epochen auf einmal, um einem Datenverlust bei Abstürzen vorzubeugen.
+Wir starteten mit einem neu initialisierten neuronalen Netz, für dessen dessen Hyperparameter wir die Voreinstellung [yolov5l.yaml](https://github.com/ultralytics/yolov5/blob/master/models/yolov5l.yaml) verwendet haben. Dieses Modell trainierten wir nach und nach weiter, je 100 Epochen auf einmal, um einem Datenverlust bei Abstürzen vorzubeugen. Für jeden dieser Durchläufe ließen wir uns von Roboflow eine Version des Datensatzes mit leicht unterschiedlichen Parametern für die Data Augmentation erzeugen. 
 
 In der Praxis ist unser Modell noch etwas durchwachsen: Einige Pokémon-Karten werden auf Anhieb richtig erkannt, andere erst nach einigen Sekunden und wieder andere überhaupt nicht.
+
+Nach der letzten Trainingssitzung kamen folgende Werte zusammen:
+
+ Precision in Relation zur Confidence | Recall in Relation zur Confidence | F1 Score in Relation zur Confidence  
+:---:|:---:|:---:
+![](docs/images/trainingsession_104_results/P_curve.png) | ![](docs/images/trainingsession_104_results/R_curve.png) | ![](docs/images/trainingsession_104_results/F1_curve.png)
+
+Schenkt man den Validierungsdaten Glauben, lässt sich mit diesem Modell maximal ein F1-Score von 0,7 erreichen bei einer Confidence von 0,4. Diese wird zwar von yolov5 automatisch ins Modell übernommen, allerdings ist 0,7 für einen F1-Score nicht gerade viel. 
+
+Ein Blick auf die Vertauschungsmatrix macht deutlich, dass manche Pokémon konsequent falsch erkannt werden: 
+![](docs/images/trainingsession_104_results/confusion_matrix.png)
+
 
 ### Herausforderungen und Schwierigkeiten
 
