@@ -45,36 +45,37 @@ In der aktuell besten Version unseres Modells wurde der Datensatz von Kaggle nic
 
 ### Annotation und Preprocessing
 
-Für diese beiden Aufgaben nahmen wir uns das online-Tool [Roboflow](https://roboflow.com/) zuhilfe, mit dem wir Pokémon auf unseren Bildern mit Bounding Boxes entsprechend dem YOLO v5 PyTorch Annotationsformat markierten. Beim Annotieren der eigens heruntergeladenen Pokémon-Karten haben wir darauf geachtet, immer einen möglichst großen Ausschnitt des Pokémon hervorzuheben, während wir versucht haben, unpraktisch platzierte Textelemente und Symbole nicht miteinzubeziehen. Insbesondere bei Karten von Megaentwicklungen und EX-Karten stellte dies als Herausforderung dar, da in diesen abgebildete Pokémon teils weit über die Grenzen der Abbildungsausschnitts der Karte hinausgehen oder sich gar über die gesamte Karte hinweg erstrecken.
+Für diese beiden Aufgaben haben wir uns das online-Tool [Roboflow](https://roboflow.com/) zuhilfe genommen, mit dem wir Pokémon auf unseren Bildern mit Bounding Boxes entsprechend dem YOLO v5 PyTorch Annotationsformat markiert haben. Beim Annotieren der eigens heruntergeladenen Pokémon-Karten haben wir darauf geachtet, immer einen möglichst großen Ausschnitt des Pokémon hervorzuheben, während wir versucht haben, unpraktisch platzierte Textelemente und Symbole nicht in die annotierten Bereiche miteinzubeziehen. Insbesondere bei Karten von Megaentwicklungen und EX-Karten stellte dies eine Herausforderung dar, da in diesen abgebildete Pokémon teils weit über die Grenzen der Abbildungsausschnitts ihrer Karte hinausgehen oder sich gar von oben bis unten über die gesamte Karte hinweg erstrecken.
 
 Die Bilder aus dem [7,000 Labeled Pokemon](https://www.kaggle.com/lantian773030/pokemonclassification) Datensatz von Kaggle waren bereits perfekt auf die abgebildeten Pokémon zugeschnitten, diese erneut in Roboflow zu annotieren stellte keine weitere Herausforderung dar.
 
 Wir haben bis jetzt immer verschiedene Versionen unserer Datensätze mit unterschiedlichen Bildeffekten zur Data Augmentation erstellt, um unserem Modell in den ersten Durchläufen das Lernen zu erleichtern und es in späteren Durchläufen auf ungünstige Fälle vorzubereiten (zum Beispiel über- oder unterbelichtete Webcams).
-Für jede dieser Datensatzversionierungen lassen wir uns die dreifache Menge an ursprünglichen Trainingsbildern generieren. Wie viele Versionierungen pro Datensatz insgesamt erstellt werden und welche Bildeffekte wann und wie stark ausgewählt werden, entschieden wir nach Gefühl und nach dem Trial and Error Prinzip.  
+Für jede dieser Datensatzversionierungen lassen wir uns die dreifache Menge an ursprünglichen Trainingsbildern generieren. Wie viele Versionierungen pro Datensatz insgesamt erstellt wurden und welche Bildeffekte wann und wie stark ausgewählt wurden entschieden wir nach Gefühl und nach dem Trial and Error Prinzip.  
 
 
 ### Training des Modells
 
 Zum Training und zur Anwendung unseres Modells haben wir uns für die Python-Bibliothek [yolov5](https://github.com/ultralytics/yolov5) entschieden. 
-Wir starteten mit einem neu initialisierten neuronalen Netz, für dessen dessen Hyperparameter wir die Voreinstellung [yolov5l.yaml](https://github.com/ultralytics/yolov5/blob/master/models/yolov5l.yaml) verwendet haben. Dieses Modell trainierten wir nach und nach weiter, je 100 Epochen auf einmal, um einem Datenverlust bei Abstürzen vorzubeugen. Für jeden dieser Durchläufe ließen wir uns von Roboflow eine Version des Datensatzes mit leicht unterschiedlichen Parametern für die Data Augmentation erzeugen. 
+Wir starteten mit einem neu initialisierten neuronalen Netz, für dessen dessen Hyperparameter wir die Voreinstellung [yolov5l.yaml](https://github.com/ultralytics/yolov5/blob/master/models/yolov5l.yaml) verwendet haben. Dieses Modell trainierten wir nach und nach weiter, je 100 Epochen auf einmal, um einem Datenverlust bei Programm- oder Systemabstürzen vorzubeugen. Für jeden dieser Durchläufe ließen wir uns von Roboflow eine Version des Datensatzes mit leicht unterschiedlichen Parametern für die Data Augmentation erzeugen. 
 
 In der Praxis ist unser Modell noch etwas durchwachsen: Einige Pokémon-Karten werden auf Anhieb richtig erkannt, andere erst nach einigen Sekunden und wieder andere überhaupt nicht.
 
-Nach der letzten Trainingssitzung kamen folgende Werte zusammen:
+Nach der letzten Trainingssitzung hat yolov5 folgende Validierungsergebnisse aufgezeichnet:
 
  Precision in Relation zur Confidence | Recall in Relation zur Confidence | F1 Score in Relation zur Confidence  
 :---:|:---:|:---:
 ![](docs/images/trainingsession_104_results/P_curve.png) | ![](docs/images/trainingsession_104_results/R_curve.png) | ![](docs/images/trainingsession_104_results/F1_curve.png)
 
-Schenkt man den Validierungsdaten Glauben, lässt sich mit diesem Modell maximal ein F1-Score von 0,7 erreichen bei einer Confidence von 0,4. Diese wird zwar von yolov5 automatisch ins Modell übernommen, allerdings ist 0,7 für einen F1-Score nicht gerade viel. 
+Angenommen die Validierungsdaten bilden das Lernproblem ausreichend gut ab, lässt sich mit diesem Modell maximal ein F1-Score von 0,7 erreichen bei einer Confidence von 0,4. Diese wird zwar von yolov5 automatisch ins Modell übernommen, allerdings ist 0,7 für einen F1-Score nicht gerade viel. 
 
 Ein Blick auf die Vertauschungsmatrix macht deutlich, dass manche Pokémon konsequent falsch erkannt werden: 
 ![](docs/images/trainingsession_104_results/confusion_matrix.png)
 
+Die dauerhafte Falscherkennung mancher Pokémon-Karten ist auch während während des Playtestings negativ aufgefallen.
 
 ### Herausforderungen und Schwierigkeiten
 
-Die größte Herausforderung, mit der wir zu kämpfen hatten, war in unserer Aufgabenstellung verwurzelt, Pokémon-Karten automatisiert zu erkennen. Die Abbildungen auf diesen Karten unterscheiden sich auch innerhalb der Klassen weitreichend: Ein Pokémon kann auf einer Karte wie in einem Kinderbuch gezeichnet, auf einer anderen im Stil eines Ölgemäldes gemalt, auf der nächsten in Form eines schnittigen 3D-Modells im Cel Shading Look präsentiert sein und auf wieder der nächsten photorealistisch gerendert auftreten. Bei Mega-Entwicklungen und dergleichen ändert sich auch gerne mal das Design eines Pokémon. Zusätzlich ändert sich von Bild zu Bild die Pose des Pokémon, die Vordergrund- und Hintergrundgestaltung und manchmal sind sogar mehrere gleiche, in seltenen Fällen auch verschiedene Pokémon auf einer Karte abgebildet. Solche extremen Differenzen erschweren das Lernproblem und erhöhen die Anforderungen an unser Modell erheblich. Wir vermuten, dass dies der Hauptgrund dafür ist, dass manche Pokémon-Karten nicht auf Anhieb oder überhaupt nicht von unserem Modell erkannt werden.
+Unsere größte Herausforderung war in unserer Aufgabenstellung verwurzelt, Pokémon-**Karten** automatisiert zu erkennen. Die Abbildungen auf diesen Karten unterscheiden sich auch innerhalb der Klassen weitreichend: Ein Pokémon kann auf einer Karte wie in einem Kinderbuch gezeichnet, auf einer anderen im Stil eines Ölgemäldes gemalt, auf der nächsten in Form eines schnittigen 3D-Modells im Cel Shading Look präsentiert sein und auf wieder der nächsten photorealistisch gerendert auftreten. Bei Mega-Entwicklungen und dergleichen ändert sich auch gerne mal das Design eines Pokémon. Zusätzlich ändert sich von Bild zu Bild die Pose des Pokémon, die Vordergrund- und Hintergrundgestaltung und manchmal sind sogar mehrere gleiche, in seltenen Fällen auch verschiedene Pokémon auf einer Karte abgebildet. Solche extremen Differenzen erschweren das Lernproblem und erhöhen die Anforderungen an unser Modell erheblich. Wir vermuten, dass dies der Hauptgrund dafür ist, dass manche Pokémon-Karten nicht auf Anhieb oder überhaupt nicht von unserem Modell erkannt werden.
 
 Dass uns für das Training nur begrenzt Zeit und die Rechenleistung zur Verfügung standen, stellte eine weitere Hürde dar. Unser Team war zwar mit genügend modernen Gaming-PCs mit CUDA-Support ausgestattet, allerdings hätte das Trainieren von ausreichend komplexen Modellen für alle 151 Pokémon der ersten Generation tagelang gedauert. Aus diesem Grund haben wir uns auf eine Auswahl von 22 zu erratenden Pokémon begrenzt, wodurch wir die Trainingszeiten auf ca. eine Stunde pro 100 Epochen senken konnten.
 
