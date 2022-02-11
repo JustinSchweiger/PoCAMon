@@ -24,7 +24,7 @@ Das Ziel ist es, das gesuchte Pokémon mit möglichst wenigen Hinweisen zu errat
 
 Für PoCAMon stehen derzeit keine plattformspezifischen Builds bereit, daher muss das Spiel direkt über Python gestartet werden:
 
-0. Falls Sie dies noch nicht getan haben, klonen Sie dieses GitLab Repository mit dem Befehl `git clone https://gitlab.hs-anhalt.de/stjtschw/whoami-kilnw.git` und navigieren Sie in den "Server" Ordner innerhalb des Repositories (`cd whoami-kilnw/Server/`).
+0. Falls Sie dies noch nicht getan haben, klonen Sie dieses GitLab Repository mit dem Befehl `git clone https://github.com/JustinSchweiger/PoCAMon.git` und navigieren Sie in den "Server" Ordner innerhalb des Repositories (`cd PoCAMon/Server/`).
 1. optional aber empfohlenerweise setzen Sie ein virtuelles Python-Environment im "Server" Ordner auf (`python -m venv venv`)
 2. Installieren Sie die benötigten Pakete mit dem Befehl `pip install -r requirements.txt`
 3. Starten Sie den Webserver mit dem Befehl `flask run`
